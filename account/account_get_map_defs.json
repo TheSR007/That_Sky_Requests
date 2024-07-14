@@ -1,0 +1,1579 @@
+/*
+POST /account/get_map_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: fIKyAVn
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:24 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 21082
+
+
+*/
+//Response
+{
+    "get_map_defs" : [
+       {
+          "landmark" : null,
+          "level" : "CandleSpace",
+          "name" : "l_CandleSpace_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Credits",
+          "name" : "l_Credits_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "l_Dawn_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "Dawn_Plateau",
+          "level" : "Dawn",
+          "name" : "l_Dawn_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "l_Dawn_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "l_Dawn_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "l_Dawn_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "l_Dawn_5",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn_TrialsAir",
+          "name" : "l_Dawn_TrialsAir_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn_TrialsEarth",
+          "name" : "l_Dawn_TrialsEarth_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn_TrialsFire",
+          "name" : "l_Dawn_TrialsFire_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn_TrialsWater",
+          "name" : "l_Dawn_TrialsWater_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DayHubCave",
+          "name" : "l_DayHubCave_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk",
+          "name" : "l_Dusk_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk",
+          "name" : "l_Dusk_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskEnd",
+          "name" : "l_DuskEnd_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "l_DuskGraveyard_5",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskMid",
+          "name" : "l_DuskMid_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskMid",
+          "name" : "l_DuskMid_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "l_DuskOasis_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "l_DuskOasis_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_CrabField",
+          "name" : "l_Dusk_CrabField_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_CrabField",
+          "name" : "l_Dusk_CrabField_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_CrabField",
+          "name" : "l_Dusk_CrabField_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "l_Dusk_Triangle_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "l_Dusk_Triangle_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "l_MainStreet_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "Night_ThirdFloor",
+          "level" : "Night",
+          "name" : "l_Night_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night",
+          "name" : "l_Night_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "l_Night2_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "l_Night2_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "l_Night2_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "Night2_SecondFloor",
+          "level" : "Night2",
+          "name" : "l_Night2_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightArchive",
+          "name" : "l_NightArchive_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightArchive",
+          "name" : "l_NightArchive_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "l_NightDesert_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "l_NightDesert_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "l_NightDesert_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "l_Night_PaintedWorld_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "l_Night_PaintedWorld_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "l_Night_PaintedWorld_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_Shelter",
+          "name" : "l_Night_Shelter_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_ButterflyFields",
+          "name" : "l_Prairie_ButterflyFields_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_ButterflyFields",
+          "name" : "l_Prairie_ButterflyFields_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_ButterflyFields",
+          "name" : "l_Prairie_ButterflyFields_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Cave",
+          "name" : "l_Prairie_Cave_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Cave",
+          "name" : "l_Prairie_Cave_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_5",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_6",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "l_Prairie_Island_7",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_NestAndKeeper",
+          "name" : "l_Prairie_NestAndKeeper_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_NestAndKeeper",
+          "name" : "l_Prairie_NestAndKeeper_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "null",
+          "level" : "Prairie_Village",
+          "name" : "l_Prairie_Village_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "null",
+          "level" : "Prairie_Village",
+          "name" : "l_Prairie_Village_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "Prairie_Village_Shrine",
+          "level" : "Prairie_Village",
+          "name" : "l_Prairie_Village_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "null",
+          "level" : "Prairie_Village",
+          "name" : "l_Prairie_Village_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : "Prairie_Village_Shrine",
+          "level" : "Prairie_Village",
+          "name" : "l_Prairie_Village_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "l_Prairie_WildLifePark_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "l_Prairie_WildLifePark_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "l_Prairie_WildLifePark_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain",
+          "name" : "l_Rain_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain",
+          "name" : "l_Rain_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainEnd",
+          "name" : "l_RainEnd_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "l_RainForest_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "l_RainForest_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "l_RainForest_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "l_RainForest_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "l_RainMid_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "l_RainMid_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "l_RainMid_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainShelter",
+          "name" : "l_RainShelter_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainShelter",
+          "name" : "l_RainShelter_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_BaseCamp",
+          "name" : "l_Rain_BaseCamp_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_BaseCamp",
+          "name" : "l_Rain_BaseCamp_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_Cave",
+          "name" : "l_Rain_Cave_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_Cave",
+          "name" : "l_Rain_Cave_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_Cave",
+          "name" : "l_Rain_Cave_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_Cave",
+          "name" : "l_Rain_Cave_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Skyway",
+          "name" : "l_Skyway_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_5",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_6",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_7",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Storm",
+          "name" : "l_Storm_8",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_3",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_4",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormEvent_VoidSpace",
+          "name" : "l_StormEvent_VoidSpace_5",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "StormStart",
+          "name" : "l_StormStart_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "l_Sunset_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "l_Sunset_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "l_Sunset_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetColosseum",
+          "name" : "l_SunsetColosseum_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetEnd",
+          "name" : "l_SunsetEnd_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetEnd",
+          "name" : "l_SunsetEnd_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetEnd2",
+          "name" : "l_SunsetEnd2_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetRace",
+          "name" : "l_SunsetRace_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "l_SunsetVillage_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "l_SunsetVillage_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "l_SunsetVillage_2",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Citadel",
+          "name" : "l_Sunset_Citadel_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Citadel",
+          "name" : "l_Sunset_Citadel_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_FlyRace",
+          "name" : "l_Sunset_FlyRace_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_FlyRace",
+          "name" : "l_Sunset_FlyRace_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Theater",
+          "name" : "l_Sunset_Theater_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_YetiPark",
+          "name" : "l_Sunset_YetiPark_0",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_YetiPark",
+          "name" : "l_Sunset_YetiPark_1",
+          "type" : "wing_buff"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "roll",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "pullup",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "mope",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "carry",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Dawn_Plateau",
+          "level" : "Dawn",
+          "name" : "loopdance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "welcome",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "come",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "point",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Dawn_Plateau",
+          "level" : "Dawn",
+          "name" : "sass",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Dawn_Shrine",
+          "level" : "Dawn",
+          "name" : "nothanks",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dawn",
+          "name" : "hackysack",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DawnCave",
+          "name" : "deepbreath",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DawnCave",
+          "name" : "dustoff",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DawnCave",
+          "name" : "balance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DawnCave",
+          "name" : "chestpound",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk",
+          "name" : "scared",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk",
+          "name" : "scared",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk",
+          "name" : "die",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "dontgo",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "respect",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "acknowledge",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "sneaky",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskGraveyard",
+          "name" : "brave",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskMid",
+          "name" : "lookaround",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "crabwalk",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "doze",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "scare",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "nod",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "shrug",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "DuskOasis",
+          "name" : "playfight",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_CrabField",
+          "name" : "crabvoice",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_CrabField",
+          "name" : "salute",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "evillaugh",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "ouch",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "wait",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Dusk_Triangle",
+          "name" : "anxious",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ConcertHall",
+          "name" : "questap23_duo",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ConcertHall",
+          "name" : "questap23_duo",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ConcertHall",
+          "name" : "questap23_duo",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ConcertHall",
+          "name" : "questap23",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ConcertHall",
+          "name" : "questap23_duo_cellist",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ShopProps",
+          "name" : "questap22",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "MainStreet_ShopSpells",
+          "name" : "questap20",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Night",
+          "level" : "Night",
+          "name" : "think",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Night",
+          "level" : "Night",
+          "name" : "pray",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Night_ThirdFloor",
+          "level" : "Night",
+          "name" : "force",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : "Night_ThirdFloor",
+          "level" : "Night",
+          "name" : "love",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "shh",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "kungfu",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night2",
+          "name" : "float",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightArchive",
+          "name" : "wise",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "sneeze",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "beckon",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "stretch",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert",
+          "name" : "gloat",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "NightDesert_Beach",
+          "name" : "scheme",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_JarCave",
+          "name" : "slouch",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "princesscarry",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "floatdance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "muscle",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_PaintedWorld",
+          "name" : "whistle",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_Shelter",
+          "name" : "plead",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_Shelter",
+          "name" : "tiptoe",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_Shelter",
+          "name" : "grief",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Night_Shelter",
+          "name" : "injured",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_ButterflyFields",
+          "name" : "celebrate",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_ButterflyFields",
+          "name" : "butterfly",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Cave",
+          "name" : "salutation",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Cave",
+          "name" : "wipe",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "jelly",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "timid",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "gratitude",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "bellyscratch",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "rally",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Island",
+          "name" : "grumpy",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_NestAndKeeper",
+          "name" : "doublefive",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_NestAndKeeper",
+          "name" : "dance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_NestAndKeeper",
+          "name" : "bird",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Village",
+          "name" : "yawn",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Village",
+          "name" : "laugh",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Village",
+          "name" : "thumbsup",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_Village",
+          "name" : "wave",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "jollydance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "nightbird",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "sidehug",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Prairie_WildLifePark",
+          "name" : "windpose",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain",
+          "name" : "cold",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain",
+          "name" : "facepalm",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain",
+          "name" : "tsktsk",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "lazycool",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "sarcastic",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "seek",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "shy",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "pout",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "eww",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainForest",
+          "name" : "marching",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "kiss",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "ohno",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "sorry",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "cry",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "bubbles",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "RainMid",
+          "name" : "chuckle",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Rain_Cave",
+          "name" : "hairtousle",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Skyway",
+          "name" : "nerdy",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Skyway",
+          "name" : "voila",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Skyway",
+          "name" : "pointup",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Skyway",
+          "name" : "babymanta",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "tripleaxel",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "juggle",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "joy",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset",
+          "name" : "strong",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetColosseum",
+          "name" : "cheer",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetColosseum",
+          "name" : "proud",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetColosseum",
+          "name" : "bow",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetEnd2",
+          "name" : "sparkler",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "showdance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "spintrick",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "peek",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "SunsetVillage",
+          "name" : "bearhug",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Citadel",
+          "name" : "manta",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Citadel",
+          "name" : "handstand",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Citadel",
+          "name" : "backflip",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Theater",
+          "name" : "duetdance",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Theater",
+          "name" : "headbob",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Theater",
+          "name" : "handshake",
+          "type" : "collectible"
+       },
+       {
+          "landmark" : null,
+          "level" : "Sunset_Theater",
+          "name" : "awww",
+          "type" : "collectible"
+       }
+    ]
+ }
+ 

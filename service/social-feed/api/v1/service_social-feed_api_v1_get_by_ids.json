@@ -1,0 +1,72 @@
+/*
+POST /service/social-feed/api/v1/get_by_ids HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: LFaV9jw
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1509719447
+Content-Length: 311
+
+
+*/
+//Request
+{
+    "author_id" : "5b913eb2-1f05-4777-8665-59f8bbb94361",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "sharer_id" : "0f7b8a78-1835-4336-aae4-13779dcdb747",
+    "social_feed_ids" : [ "1fe50726-1a07-460f-bf0b-a9204ef5b057:b7a71262" ],
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:18:57 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 741
+
+
+*/
+//Response
+{
+    "feeds" : [
+       {
+          "comments_enabled" : true,
+          "create_at" : 1720423209245,
+          "expire_at" : 1720768809000,
+          "extra_data" : {
+             "chunk_count" : 0,
+             "ori" : "(0,0.374,0,0.928)",
+             "pos" : "(67.228,0.791,450.124)",
+             "prompt_used" : "",
+             "resource_id" : "",
+             "scale" : "(1,1,1)",
+             "sub_type" : 0
+          },
+          "message" : "쉬다가세요 ",
+          "pool_name" : "Dawn",
+          "pool_type" : "SharedSpaceCandle",
+          "reactions" : {
+             "is_poisoned" : false,
+             "total_comment_count" : 2,
+             "total_hide_count" : 0,
+             "total_like_count" : 12,
+             "total_like_reward_message_id" : 0,
+             "total_report_count" : 0,
+             "total_reported_comment_count" : 0,
+             "total_super_like_count" : 0
+          },
+          "social_feed_id" : "1fe50726-1a07-460f-bf0b-a9204ef5b057:77c5915b",
+          "state" : "normal",
+          "tags" : null,
+          "user_id" : "5b913eb2-1f05-4777-8665-59f8bbb94361"
+       }
+    ],
+    "result" : "ok"
+ }
+ 

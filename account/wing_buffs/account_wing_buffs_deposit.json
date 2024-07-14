@@ -1,0 +1,49 @@
+/*
+POST /account/wing_buffs/deposit HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: xxXfBaE
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3479786579
+Content-Length: 196
+
+
+*/
+//Request
+{
+    "name_deposit_id_pairs" : [
+       [ "l_SunsetEnd_0", 4294967296 ] // can be ...
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 22:41:53 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 121
+
+
+*/
+//Response
+{
+    "result" : "ok",
+    "update_wing_buffs" : [
+       {
+          "collected" : false,
+          "deposit_id" : 4294967296,
+          "deposited" : true,
+          "name" : "l_SunsetEnd_0"
+       }
+       //can be ...
+    ]
+ }
+ 

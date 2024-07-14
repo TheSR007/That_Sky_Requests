@@ -1,0 +1,57 @@
+/*
+POST /account/buy_candle_wax HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: ec5eiyA
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1649439303
+Content-Length: 206
+
+
+*/
+//Request
+{
+    "cost" : 150,
+    "count" : 1,
+    "currency" : "candles",
+    "forge_currency" : "wax",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:25:46 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 291
+
+
+*/
+//Response
+{
+    "currency" : {
+       "candles" : 5,
+       "wax" : 24
+    },
+    "result" : "ok",
+    "update_forge_rates" : [
+       {
+          "current_level" : 4,
+          "current_tier" : 26,
+          "enabled" : true,
+          "level_completion" : 0.03616920150816440,
+          "level_tier_count" : 5,
+          "level_tier_index" : 0,
+          "reset_acknowledged" : true,
+          "source_type" : "wax",
+          "tier_completion" : 0.1808460075408220
+       }
+    ]
+ }
+ 

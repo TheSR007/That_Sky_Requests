@@ -1,0 +1,42 @@
+/*
+POST /account/get_latest_build_version HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 9qPciv7
+x-sky-level-id: 3526133726
+Content-Length: 2
+
+
+*/
+//Request
+{}
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:14:38 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 456
+
+
+*/
+//Response
+{
+    "app_store_uri" : "itms-apps://itunes.apple.com/app/id1462117269",
+    "country_code" : "BD",
+    "cs_db_enabled" : false,
+    "cs_enabled" : true,
+    "latest_build_version" : 275000,
+    "maintenance_mode" : false,
+    "maintenance_msg" : "",
+    "min_gpu_rating" : 540,
+    "tos" : {
+       "pp_url" : "https://legal.thatskygame.com/?p=hc/en/17-sky-children-of-the-light/faq/461-privacy-policy/",
+       "tos_url" : "https://legal.thatskygame.com/?p=hc/en/17-sky-children-of-the-light/faq/460-eula-terms-of-service/",
+       "version" : 4
+    }
+ }
+ 

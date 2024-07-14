@@ -1,0 +1,36 @@
+/*
+POST /account/get_generic_shop_item_tracking_info HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.22631; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: vt0V9iH
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+session: 2b393ebf9b28bb875b8a9146ba554a66
+x-sky-level-id: 3526133726
+Content-Length: 178
+
+*/
+//Request
+{
+    "session" : "2b393ebf9b28bb875b8a9146ba554a66",
+    "shop_name" : "SpellShop_Oasis_Scroll",
+    "user" : "7bcff223-37a6-4856-a7ba-d23845079b3c",
+    "user_id" : "7bcff223-37a6-4856-a7ba-d23845079b3c"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Sun, 14 Jul 2024 13:13:51 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 38
+
+*/
+//Response
+{
+    "generic_shop_item_tracking_info" : []
+ }
+ 

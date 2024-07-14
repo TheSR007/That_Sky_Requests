@@ -1,0 +1,483 @@
+/*
+POST /service/social-feed/api/v2/get_curated_feeds HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: fxY
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1509719447
+Content-Length: 517
+
+
+*/
+//Request
+{
+    "amounts_returned" : {
+       "inner_ring" : {
+          "exact_amount" : true,
+          "followed" : 12,
+          "friends" : 12,
+          "local" : 0,
+          "public" : 12
+       },
+       "outer_ring" : {
+          "exact_amount" : false,
+          "followed" : 0,
+          "friends" : 0,
+          "local" : 0,
+          "public" : 0
+       }
+    },
+    "get_full_documents" : true,
+    "page" : 0,
+    "random_seed" : 19916000,
+    "search_area" : {
+       "coordinates" : "(117,195,-443)",
+       "inner_radius" : 14,
+       "level_id" : "Prairie_ButterflyFields",
+       "outer_radius" : 0,
+       "pool_name" : "Prairie_ButterflyFields",
+       "pool_type" : "SharedSpaceCandle",
+       "vertical_radius" : 24
+    },
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:33 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 9976
+
+
+*/
+//Response
+{
+    "inner_ring" : {
+       "followed" : null,
+       "friends" : null,
+       "local" : null,
+       "public" : [
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-08T09:03:16.976Z",
+             "expire_at" : "2024-07-12T09:03:16Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.998,0,0.063)",
+                "pos" : "(107.533,195.599,-434.401)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "ウーみー突然だけど氷タンフル作った？(┛'-')┛=❄❄❄",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 1,
+                "total_hide_count" : 0,
+                "total_like_count" : 7,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "9ab57953-9a04-462c-9b8d-214530405332:d4709301",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "6f9a3b0e-7879-4abc-b3b5-c466964f2d91"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-07T09:38:31.598Z",
+             "expire_at" : "2024-07-11T09:38:31Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.011,0,1)",
+                "pos" : "(109.168,195.595,-439.562)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "Skyはじめました！ハートが必要なんです！お願いします！アスレチック作りました！",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 1,
+                "total_hide_count" : 0,
+                "total_like_count" : 30,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 1
+             },
+             "social_feed_id" : "7daa3227-fbb1-47af-ba6e-ca13d5884c16:b24b5d29",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "c5893e92-08b1-411b-9319-44de530b5d8b"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-08T12:06:07.024Z",
+             "expire_at" : "2024-07-12T12:06:07Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.949,0,-0.315)",
+                "pos" : "(105.849,195.502,-440.785)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "❤️",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 4,
+                "total_hide_count" : 0,
+                "total_like_count" : 60,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 1
+             },
+             "social_feed_id" : "7d486b00-1979-4534-baf0-46a94e1879f7:115e14ad",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "056c33dd-36a8-4321-a9da-3bf349db3c49"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-06T10:43:06.908Z",
+             "expire_at" : "2024-07-10T10:43:06Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.947,0,0.322)",
+                "pos" : "(108.21,195.527,-439.373)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "浮いている椅子の上に椅子があります",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 5,
+                "total_hide_count" : 0,
+                "total_like_count" : 27,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "5c316a27-2296-414d-b455-5829d40f851d:42fd778e",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "82b8eee8-1d9b-4fe4-a8a6-d191ecade02c"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-12T05:53:21.447Z",
+             "expire_at" : "2024-07-16T05:53:21Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.888,0,0.461)",
+                "pos" : "(113.024,195.756,-441.775)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "Sillones(?",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 0,
+                "total_hide_count" : 0,
+                "total_like_count" : 2,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "58fb172e-d3eb-4992-9cd0-c9a13c71e3ce:a3c6a208",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "163a635d-9a28-40cf-ab60-f55091de9600"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-10T22:17:44.462Z",
+             "expire_at" : "2024-07-14T22:17:44Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.2,0,0.98)",
+                "pos" : "(107.922,195.64,-434.247)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "Place to chat and get to know people😊❤️",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 1,
+                "total_hide_count" : 0,
+                "total_like_count" : 8,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 1
+             },
+             "social_feed_id" : "553ee388-0614-4916-8256-22d631b7f5f8:1bb0e456",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "d9e33c85-ba52-4651-a607-d4aafbb0c749"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-06T05:21:08.836Z",
+             "expire_at" : "2024-07-10T05:21:08Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.003,0,1)",
+                "pos" : "(123.894,195.693,-440.98)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "You're here! I'm so proud of you! <3",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 2,
+                "total_hide_count" : 0,
+                "total_like_count" : 8,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "6dd9142b-fd58-4f36-88ca-31d272fcc709:4c9cc26b",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "85176de6-9241-4656-91c7-e76d169b03eb"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-12T06:19:33.503Z",
+             "expire_at" : "2024-07-16T06:19:33Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.959,0,0.282)",
+                "pos" : "(108.653,195.487,-441.452)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "座布団",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 4,
+                "total_hide_count" : 0,
+                "total_like_count" : 9,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 1
+             },
+             "social_feed_id" : "c9441461-912b-4b41-8207-f088ced8a3e8:c79f90b1",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "d1fc77c3-49ab-48c4-a227-9115f157c350"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-09T12:44:15.95Z",
+             "expire_at" : "2024-07-13T12:44:15Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.864,0,0.504)",
+                "pos" : "(107.793,195.606,-437.018)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "Make somoe noise!",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 5,
+                "total_hide_count" : 0,
+                "total_like_count" : 58,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "a7bdb368-c8ad-4cdd-a233-4ffb21a790a6:b966a107",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "a2011269-431b-422b-ad54-9877d7d7fd0a"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-06T14:47:43.991Z",
+             "expire_at" : "2024-07-10T14:47:43Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.983,0,-0.185)",
+                "pos" : "(120.38,195.954,-444.586)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "🍵🌟",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 0,
+                "total_hide_count" : 0,
+                "total_like_count" : 3,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "83acc419-b5be-43ce-9010-f54e0b7860c6:ed8f87db",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "dbd17646-97a6-46c9-ac0e-60b39ed635ba"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-11T14:23:53.828Z",
+             "expire_at" : "2024-07-15T14:23:53Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,-0.048,-0,0.999)",
+                "pos" : "(108.195,195.694,-435.468)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : " Picnic",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 1,
+                "total_hide_count" : 0,
+                "total_like_count" : 7,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "b659cf92-b5c5-420e-a055-d05727d37b46:6ac16db0",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "14cfecbe-306b-472e-b50a-5ca66ce1e1c0"
+          },
+          {
+             "comments_enabled" : true,
+             "create_at" : "2024-07-07T14:15:42.107Z",
+             "expire_at" : "2024-07-11T14:15:42Z",
+             "extra_data" : {
+                "chunk_count" : 0,
+                "ori" : "(0,0.98,0,-0.201)",
+                "pos" : "(106.666,195.537,-435.247)",
+                "prompt_used" : "",
+                "resource_id" : "",
+                "scale" : "(1,1,1)",
+                "sub_type" : 0
+             },
+             "followed" : false,
+             "friend" : false,
+             "local_creation" : false,
+             "message" : "( ◜𖥦◝ )",
+             "pool_name" : "Prairie_ButterflyFields",
+             "pool_type" : "SharedSpaceCandle",
+             "reactions" : {
+                "is_poisoned" : false,
+                "total_comment_count" : 2,
+                "total_hide_count" : 0,
+                "total_like_count" : 34,
+                "total_like_reward_message_id" : 0,
+                "total_report_count" : 0,
+                "total_reported_comment_count" : 0,
+                "total_super_like_count" : 0
+             },
+             "social_feed_id" : "c9727291-2b65-441c-bcd3-fb80ab6ef1d1:3b3a73f0",
+             "state" : "normal",
+             "tags" : null,
+             "user_id" : "a67b0977-2479-460f-bd2d-361a5c259eef"
+          }
+       ],
+       "total_available_results" : 128,
+       "total_followed" : 0,
+       "total_friends" : 0
+    },
+    "outer_ring" : null
+ }
+ 

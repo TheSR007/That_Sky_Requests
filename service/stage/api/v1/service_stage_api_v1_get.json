@@ -1,0 +1,121 @@
+/*
+POST /service/stage/api/v1/get HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 3gxcl6B
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 2477345666
+Content-Length: 265
+
+
+*/
+//Request
+{
+    "level_id" : "Prairie_ButterflyFields",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "stage_id" : "Prairie_ButterflyFields_CNDL",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "505cb082-b715-4e8d-8346-f53fabc9c565"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:29:59 GMT
+Content-Type: text/plain; charset=utf-8
+Connection: keep-alive
+Content-Length: 23
+
+
+*/
+//Response
+{
+    "level_id" : "Prairie_ButterflyFields",
+    "props" : [
+       {
+          "name" : "CharSkyKid_Prop_RugMediumArgyle",
+          "ori" : "(0.034,0.196,0.045,0.979)",
+          "pos" : "(-2.233,-0.102,-0.318)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_PillowXmas",
+          "ori" : "(0.042,0.002,0.038,0.998)",
+          "pos" : "(-2.233,-0.079,0.182)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_PillowXmas",
+          "ori" : "(0.054,-0.381,0.019,0.923)",
+          "pos" : "(-3.233,-0.126,-0.152)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_AP11Rose_01",
+          "ori" : "(0.03,0.287,0.048,0.956)",
+          "pos" : "(-2.896,-0.148,0.405)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_IslandUmbrella_01",
+          "ori" : "(0.043,-0.012,0.037,0.998)",
+          "pos" : "(-3.122,-0.219,1.032)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_AP17Chimes",
+          "ori" : "(0,0.934,0,0.358)",
+          "pos" : "(-3.522,1.381,1.524)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_Balloon_01",
+          "ori" : "(0.035,0.447,0.042,0.893)",
+          "pos" : "(-0.568,0.064,-0.016)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       },
+       {
+          "name" : "CharSkyKid_Prop_AP11Fox_01",
+          "ori" : "(-0.03,0.938,0.084,-0.336)",
+          "pos" : "(-2.28,0.052,0.054)",
+          "scale" : "(1,1,1)",
+          "type" : "unlock",
+          "userDataBool" : false,
+          "version" : 0
+       }
+    ],
+    "sequence" : 1,
+    "stage_id" : "Prairie_ButterflyFields_CNDL",
+    "status" : "OK",
+    "user_id" : "505cb082-b715-4e8d-8346-f53fabc9c565"
+ }
+
+ 
+
+/*
+{"status":"no result"}  //as Content-Type: text/plain
+*/

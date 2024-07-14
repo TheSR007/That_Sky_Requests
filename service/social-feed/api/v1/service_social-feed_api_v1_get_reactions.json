@@ -1,0 +1,48 @@
+/*
+POST /service/social-feed/api/v1/get_reactions HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: iM25VMj
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1509719447
+Content-Length: 248
+
+
+*/
+//Request
+{
+    "author_id" : "c4525e64-564c-4813-b224-c9f472cd7c32",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "social_feed_id" : "24f80d32-c825-4af1-a131-2e9ffbd93c98",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:34 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 241
+
+
+*/
+//Response
+{
+    "reactions" : {
+       "is_poisoned" : false,
+       "total_comment_count" : 3,
+       "total_hide_count" : 0,
+       "total_like_count" : 29,
+       "total_like_reward_message_id" : 0,
+       "total_report_count" : 0,
+       "total_reported_comment_count" : 0,
+       "total_super_like_count" : 0
+    },
+    "user_reactions" : null
+ }
+ 

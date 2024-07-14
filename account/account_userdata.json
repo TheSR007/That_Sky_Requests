@@ -1,0 +1,44 @@
+/*
+POST /account/userdata HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: NkoRlgM
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 1077
+
+
+*/
+//Request
+{
+    "data" : "eyJtaXNjIjp7InByZWZlcnJlZEhvbWVMZXZlbCI6MCwic3VibWl0VHV0b3JpYWxFdmVudHMiOnRydWV9LCJ0dXRvcmlhbCI6eyJsYXN0VGVsZXBvcnRIb21lVGltZSI6MzU3MjQyMzg5NiwibGFzdEpvaW5SYW5kb21HYW1lVGltZSI6MzU3MjQyMzg5NiwiZm9yZ2UiOjEsIm1lbnUiOjEsInNob3V0IjowLCJzaG9wIjowLCJidWRkeVJlcSI6MCwiZGl2ZSI6MCwiYnJlYXRoIjowLCJkaXZlTW92ZSI6MCwiZmYiOmZhbHNlLCJlZGl0bW9kZSI6MCwid2ViUmVtb3RlIjowLCJtZW1vcnlTcGVsbHNWaWV3ZWQiOjAsIm1lbW9yeVNocmluZXNWaWV3ZWQiOjAsInNwYWNlU3BlbGxzVmlld2VkIjowLCJzcGFjZVNocmluZXNWaWV3ZWQiOjB9LCJtZW51Ijp7ImZyaWVuZENvbnN0ZWxsYXRpb25QcmVmZXJyZWQiOmZhbHNlLCJuZXN0V2VsY29tZUxldmVsIjowfSwiYWNoaWV2ZW1lbnRzIjp7ImRhaWx5X3F1ZXN0c19hY3RpdmF0ZWQiOltmYWxzZSxmYWxzZSxmYWxzZSxmYWxzZV0sImRhaWx5X3F1ZXN0c19yZXdhcmRfZ2l2ZW4iOltmYWxzZSxmYWxzZSxmYWxzZSxmYWxzZV0sImRhaWx5X3F1ZXN0c19pbnRlcmFjdGlvbl9lcG9jaF90aW1lIjoxNzE3MjY2MTc2fSwiZWxkZXJfaXRlbV9pZHMiOls0MjQ3ODc4MDA5LDg1MDE1NTg5Myw3NzY5NDQxOTddLCJlbGRlcl9pdGVtX2hwcyI6WzQsNCwzXX0A",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "time" : 1717267971,
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "version" : 3
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:10 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 950
+
+
+*/
+//Response
+{
+    "userdata" : {
+       "data" : "eyJtaXNjIjp7InByZWZlcnJlZEhvbWVMZXZlbCI6MCwic3VibWl0VHV0b3JpYWxFdmVudHMiOnRydWV9LCJ0dXRvcmlhbCI6eyJsYXN0VGVsZXBvcnRIb21lVGltZSI6MzU3MjQyMzg5NiwibGFzdEpvaW5SYW5kb21HYW1lVGltZSI6MzU3MjQyMzg5NiwiZm9yZ2UiOjEsIm1lbnUiOjEsInNob3V0IjowLCJzaG9wIjowLCJidWRkeVJlcSI6MCwiZGl2ZSI6MCwiYnJlYXRoIjowLCJkaXZlTW92ZSI6MCwiZmYiOmZhbHNlLCJlZGl0bW9kZSI6MCwid2ViUmVtb3RlIjowLCJtZW1vcnlTcGVsbHNWaWV3ZWQiOjAsIm1lbW9yeVNocmluZXNWaWV3ZWQiOjAsInNwYWNlU3BlbGxzVmlld2VkIjowLCJzcGFjZVNocmluZXNWaWV3ZWQiOjB9LCJtZW51Ijp7ImZyaWVuZENvbnN0ZWxsYXRpb25QcmVmZXJyZWQiOmZhbHNlLCJuZXN0V2VsY29tZUxldmVsIjowfSwiYWNoaWV2ZW1lbnRzIjp7ImRhaWx5X3F1ZXN0c19hY3RpdmF0ZWQiOltmYWxzZSxmYWxzZSxmYWxzZSxmYWxzZV0sImRhaWx5X3F1ZXN0c19yZXdhcmRfZ2l2ZW4iOltmYWxzZSxmYWxzZSxmYWxzZSxmYWxzZV0sImRhaWx5X3F1ZXN0c19pbnRlcmFjdGlvbl9lcG9jaF90aW1lIjoxNzE3MjY2MTc2fSwiZWxkZXJfaXRlbV9pZHMiOls0MjQ3ODc4MDA5LDg1MDE1NTg5Myw3NzY5NDQxOTddLCJlbGRlcl9pdGVtX2hwcyI6WzQsNCwzXX0A",
+       "time" : 1717267971,
+       "version" : 3
+    }
+ }
+ 

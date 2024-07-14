@@ -1,0 +1,43 @@
+/*
+POST /account/find_previous_or_empty HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Length: 258
+
+
+*/
+//Request
+{
+    "user": "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "session": "c96c4ac19fd8ead1e884e4a852a7e933",
+    "server_version": 377,
+    "client_version": 5019,
+    "force_empty": false,
+    "net_flags": 0,
+    "net_exclusive_flags": 0,
+    "level_hash": 32977,
+    "quick_rejoin_players": [],
+    "recent_players": []
+  }
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:27 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 239
+
+
+*/
+//Response
+{
+    "move_ts" : 1720818987,
+    "platform_filter" : 0,
+    "ps_only" : false,
+    "sig" : "4e2aefa017ee95f39211a22b9a90b022f42a8e13497b1e62af828d4391409cc0",
+    "signature" : "44465d87cbdc0172f9037c1c41ad86a5a22c13c5a75cb8a821bad675ff56899c",
+    "uri" : "18.236.166.252:42578"
+ }
+ 

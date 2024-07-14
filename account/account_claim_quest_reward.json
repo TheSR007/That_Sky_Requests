@@ -1,0 +1,63 @@
+/*
+POST /account/claim_quest_reward HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 1exwV4J
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 2477345666
+Content-Length: 209
+
+
+*/
+//Request
+{
+    "bonus_percent" : 0.387096760,
+    "name" : "sunset_race",
+    "reward_event_name" : "",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:33:53 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 446
+
+
+*/
+//Response
+{
+    "bonus_amount" : 23,
+    "bonus_wax_amount" : 23,
+    "currency" : {
+       "candles" : 8,
+       "wax" : 237
+    },
+    "result" : "ok",
+    "update_forge_rates" : [
+       {
+          "current_level" : 4,
+          "current_tier" : 23,
+          "enabled" : true,
+          "level_completion" : 0.7212564300745725,
+          "level_tier_count" : 5,
+          "level_tier_index" : 3,
+          "reset_acknowledged" : true,
+          "source_type" : "wax",
+          "tier_completion" : 0.6062821503728628
+       }
+    ],
+    "update_world_quest" : {
+       "cooldown_over_time" : 1720854000,
+       "ever_completed" : true,
+       "world_quest_def_id" : "sunset_race"
+    }
+ } 

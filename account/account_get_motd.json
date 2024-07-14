@@ -1,0 +1,52 @@
+/*
+POST /account/get_motd HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: NVUIydz
+x-sky-level-id: 3526133726
+Content-Length: 2
+
+
+*/
+//Request
+{}
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:14:38 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 558
+
+
+*/
+//Response
+{
+    "motd" : "Not sure what to record with your Shared Memory spell? The Shared Memory shrine in Aviary Village has a prompt to get your ideas flowing!",
+    "motd_buttons" : [
+       {
+          "img" : "Icon_instagram",
+          "url" : "https://www.instagram.com/thatskygame/?hl=en"
+       },
+       {
+          "img" : "Icon_facebook",
+          "url" : "https://www.facebook.com/thatskygame/"
+       },
+       {
+          "img" : "Icon_twitter",
+          "url" : "https://twitter.com/thatskygame?lang=en"
+       },
+       {
+          "img" : "Icon_discord",
+          "url" : "https://discord.gg/thatskygame"
+       }
+    ],
+    "motd_season_start" : 1721026800,
+    "motd_timestamp" : 1720767600,
+    "motd_title" : "Shared Memories",
+    "motd_version" : 137688
+ }
+ 

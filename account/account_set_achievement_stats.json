@@ -1,0 +1,152 @@
+/*
+POST /account/set_achievement_stats HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: kdJ2xSF
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 249
+
+
+*/
+//Request
+{
+    "achievement_stats" : [
+       {
+          "type" : "cape_change_count",
+          "value" : 3
+       },
+       {
+          "type" : "highest_carry_stack_count",
+          "value" : 1
+       }
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:27 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 1404
+
+
+*/
+//Response
+{
+    "achievement_stats" : [
+       {
+          "type" : "avatar_charge_count",
+          "updated" : 1717266678,
+          "value" : 19551.6760
+       },
+       {
+          "type" : "cape_change_count",
+          "updated" : 1720818987,
+          "value" : 3
+       },
+       {
+          "type" : "collectible_count",
+          "updated" : 1717267486,
+          "value" : 1
+       },
+       {
+          "type" : "dawn_collectibles_collected_count",
+          "updated" : 1717267486,
+          "value" : 1
+       },
+       {
+          "type" : "emotes_collected_count",
+          "updated" : 1717267200,
+          "value" : 2
+       },
+       {
+          "type" : "emotes_used_count",
+          "updated" : 1717267930,
+          "value" : 2
+       },
+       {
+          "type" : "engine_activated_count",
+          "updated" : 1717267579,
+          "value" : 3
+       },
+       {
+          "type" : "fly_continuously_1_minute_count",
+          "updated" : 1717264528,
+          "value" : 1
+       },
+       {
+          "type" : "fly_continuously_2_minute_count",
+          "updated" : 1717264588,
+          "value" : 1
+       },
+       {
+          "type" : "forged_candle_count",
+          "updated" : 1717266401,
+          "value" : 2
+       },
+       {
+          "type" : "hair_change_count",
+          "updated" : 1717264975,
+          "value" : 3
+       },
+       {
+          "type" : "highest_cape_level",
+          "updated" : 1717267529,
+          "value" : 2
+       },
+       {
+          "type" : "highest_carry_stack_count",
+          "updated" : 1720818987,
+          "value" : 1
+       },
+       {
+          "type" : "highest_flight_altitude",
+          "updated" : 1717267574,
+          "value" : 83.65780599999999
+       },
+       {
+          "type" : "join_1_player_count",
+          "updated" : 1717266249,
+          "value" : 3
+       },
+       {
+          "type" : "join_2_players_count",
+          "updated" : 1717266264,
+          "value" : 2
+       },
+       {
+          "type" : "light_candle_count",
+          "updated" : 1717267648,
+          "value" : 487
+       },
+       {
+          "type" : "non_unique_hand_hold_count",
+          "updated" : 1717266132,
+          "value" : 4
+       },
+       {
+          "type" : "non_unique_high_five_count",
+          "updated" : 1717264975,
+          "value" : 1
+       },
+       {
+          "type" : "visit_dawn_temple_exit",
+          "updated" : 1717268055,
+          "value" : 1
+       },
+       {
+          "type" : "wax_pickup_count",
+          "updated" : 1717266647,
+          "value" : 136
+       }
+    ]
+ }
+ 

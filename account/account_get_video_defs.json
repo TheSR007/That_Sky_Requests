@@ -1,0 +1,242 @@
+/*
+POST /account/get_video_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: nTwM42Q
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:25 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 6819
+
+
+*/
+//Response
+{
+    "video_defs" : [
+       {
+          "duration" : 672,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/gallery2/DOS5_ArtGalleryInGame_K_240424/DOS5_ArtGalleryInGame_K_240424_tgc.m3u8",
+          "name" : "art_of_sky_gallery",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 47,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/ArtBookSigning_VLS_47s_EN_2406/ArtBookSigning_VLS_47s_EN_2406_tgc.m3u8",
+          "name" : "artbook_signing",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 47,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/SKYF_CinemaTrailer-Socials_VLS_47s_EN_2406/SKYF_CinemaTrailer-Socials_VLS_47s_EN_2406_tgc.m3u8",
+          "name" : "cinema_trailer",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 210,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Cocowoll_SkyFest_Animation/Cocowoll_SkyFest_Animation_tgc.m3u8",
+          "name" : "cocowoll_skyfest_animation",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 61,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_Trailer_Socials_VLS_60s_EN_2406/DOS5_Trailer_Socials_VLS_60s_EN_2406_tgc.m3u8",
+          "name" : "fifth_anniversary_trailer",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 492,
+          "has_translations" : false,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/gallery2/DOS5_HistoryOfSkyInGame_K_240502/DOS5_HistoryOfSkyInGame_K_240502_tgc.m3u8",
+          "name" : "history_of_sky_gallery",
+          "subtitle_base" : ""
+       },
+       {
+          "duration" : 3460,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_GDC-Jenova_VLS_58m_EN_240618/DOS5_GDC-Jenova_VLS_58m_EN_240618.m3u8",
+          "name" : "jenova_dev_talk",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Jenova_Dev_Talk/DOS5_GDC-Jenova_VLS_58m_EN_240516.mp4.vtt"
+       },
+       {
+          "duration" : 2347,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c_tgc.m3u8",
+          "name" : "jenova_keynote",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Jenova_Keynote_Global/Jenova_Keynote_Global.mp4.vtt"
+       },
+       {
+          "duration" : 3235,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_GDC-Nic_VLS_54m_EN_240521/DOS5_GDC-Nic_VLS_54m_EN_240521_tgc.m3u8",
+          "name" : "nic_dev_talk",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Nic_Dev_Talk/DOS5_GDC-Nic_VLS_54m_EN_240521.mp4.vtt"
+       },
+       {
+          "duration" : 105,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Amelia/Recrui_Amelia_tgc.m3u8",
+          "name" : "recruitment_amelia",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Amelia_Razinha/Recrui_Amelia_Razinha.mp4.vtt"
+       },
+       {
+          "duration" : 83,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Dylan/Recrui_Dylan_tgc.m3u8",
+          "name" : "recruitment_dylan",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Dylan_Faust/Recrui_Dylan.mp4.vtt"
+       },
+       {
+          "duration" : 113,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Jeremy/Recrui_Jeremy_tgc.m3u8",
+          "name" : "recruitment_jeremy",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Jeremy_Simpson/Recrui_Jeremy.mp4.vtt"
+       },
+       {
+          "duration" : 95,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Kyle_0202/Recrui_Kyle_0202_tgc.m3u8",
+          "name" : "recruitment_kyle",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Kyle_Holdwick/Recrui_Kyle_0202.mp4.vtt"
+       },
+       {
+          "duration" : 93,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Nic_0926/Recrui_Nic_0926_tgc.m3u8",
+          "name" : "recruitment_nick",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Nic_Oueijan/Recrui_Nic_0926.mp4.vtt"
+       },
+       {
+          "duration" : 93,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Reika_0214/Recrui_Reika_0214_tgc.m3u8",
+          "name" : "recruitment_reika",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Reika_Yoshino/Recrui_Reika_0214.mp4.vtt"
+       },
+       {
+          "duration" : 115,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Sam_0609/Recrui_Sam_0609_tgc.m3u8",
+          "name" : "recruitment_sam",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Sam_McGrath/Recrui_Sam_0609.mp4.vtt"
+       },
+       {
+          "duration" : 96,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/Recrui_Samantha_0216/Recrui_Samantha_0216_tgc.m3u8",
+          "name" : "recruitment_samantha",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Recruitment_Videos/Samantha_Cruse/Recrui_Samantha_0216.mp4.vtt"
+       },
+       {
+          "duration" : 3027,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_GDC-Sam_VLS_50m_EN_240516/DOS5_GDC-Sam_VLS_50m_EN_240516_tgc.m3u8",
+          "name" : "sam_dev_talk",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Sam_Dev_Talk/Sam_GDC_Talk.vtt"
+       },
+       {
+          "duration" : 1870,
+          "has_translations" : true,
+          "location" : "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_InGame-YuiKeyN_VLS_31m12s_240524/DOS5_InGame-YuiKeyN_VLS_31m12s_240524_tgc.m3u8",
+          "name" : "yui_dev_talk",
+          "subtitle_base" : "https://video.cdn.thatgamecompany.com/vtt-sf24/Yui_Art_Talk/DOS5_InGame-YuiKeyN_VLS_31m12s_240524.mp4.vtt"
+       }
+    ],
+    "video_schedule" : [
+       {
+          "channel" : "cinema",
+          "event" : "skyfest_developer_jenova",
+          "gap_seconds" : 30,
+          "loop" : false,
+          "playlist" : [ "jenova_dev_talk" ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 120,
+          "silence_please" : true
+       },
+       {
+          "channel" : "cinema",
+          "event" : "skyfest_developer_nicolas",
+          "gap_seconds" : 30,
+          "loop" : false,
+          "playlist" : [ "fifth_anniversary_trailer", "nic_dev_talk" ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 120,
+          "silence_please" : true
+       },
+       {
+          "channel" : "cinema",
+          "event" : "skyfest_developer_sam",
+          "gap_seconds" : 30,
+          "loop" : false,
+          "playlist" : [ "cinema_trailer", "sam_dev_talk" ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 120,
+          "silence_please" : true
+       },
+       {
+          "channel" : "cinema",
+          "event" : "skyfest_developer_yui",
+          "gap_seconds" : 30,
+          "loop" : false,
+          "playlist" : [ "artbook_signing", "yui_dev_talk" ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 120,
+          "silence_please" : true
+       },
+       {
+          "channel" : "cinema",
+          "event" : "skyfest_keynote",
+          "gap_seconds" : 30,
+          "loop" : false,
+          "playlist" : [ "cocowoll_skyfest_animation", "jenova_keynote" ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 120,
+          "silence_please" : true
+       },
+       {
+          "channel" : "tgc_office",
+          "event" : "global_skyfest",
+          "gap_seconds" : 15,
+          "loop" : true,
+          "playlist" : [
+             "recruitment_kyle",
+             "recruitment_reika",
+             "recruitment_nick",
+             "recruitment_sam",
+             "recruitment_amelia",
+             "recruitment_jeremy",
+             "recruitment_samantha",
+             "recruitment_dylan"
+          ],
+          "postshow_seconds" : 10,
+          "preshow_seconds" : 10,
+          "silence_please" : false
+       }
+    ]
+ }
+ 

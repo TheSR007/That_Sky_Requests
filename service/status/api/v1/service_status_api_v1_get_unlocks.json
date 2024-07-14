@@ -1,0 +1,241 @@
+/*
+POST /service/status/api/v1/get_unlocks HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 5ajPecH
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:22 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 2953
+
+
+*/
+//Response
+{
+    "status_unlocks" : [
+       {
+          "ack" : true,
+          "name" : "AP22GuideUnhusked",
+          "type" : "level",
+          "unlocked_at" : 1717266234
+       },
+       {
+          "ack" : false,
+          "name" : "AP22Unlock",
+          "type" : "level",
+          "unlocked_at" : 1717266146
+       },
+       {
+          "ack" : false,
+          "name" : "AP22Unlock_AviaryIntro",
+          "type" : "level",
+          "unlocked_at" : 1717266146
+       },
+       {
+          "ack" : false,
+          "name" : "AP22Unlock_CS",
+          "type" : "level",
+          "unlocked_at" : 1717266147
+       },
+       {
+          "ack" : true,
+          "name" : "AviaryVillage_found",
+          "type" : "level",
+          "unlocked_at" : 1717266061
+       },
+       {
+          "ack" : false,
+          "name" : "DayStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265030
+       },
+       {
+          "ack" : false,
+          "name" : "DuskStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265034
+       },
+       {
+          "ack" : true,
+          "name" : "FinishedIntro",
+          "type" : "level",
+          "unlocked_at" : 1717264612
+       },
+       {
+          "ack" : false,
+          "name" : "LearnedResume",
+          "type" : "level",
+          "unlocked_at" : 1717267155
+       },
+       {
+          "ack" : false,
+          "name" : "MainstreetDawnIntro",
+          "type" : "level",
+          "unlocked_at" : 1717266385
+       },
+       {
+          "ack" : false,
+          "name" : "MainstreetFinishedOnboarding",
+          "type" : "level",
+          "unlocked_at" : 1717266113
+       },
+       {
+          "ack" : true,
+          "name" : "MainstreetPortalGuidance",
+          "type" : "level",
+          "unlocked_at" : 1717267130
+       },
+       {
+          "ack" : false,
+          "name" : "NightStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265035
+       },
+       {
+          "ack" : true,
+          "name" : "OnboardedInMainstreet",
+          "type" : "level",
+          "unlocked_at" : 1717264466
+       },
+       {
+          "ack" : true,
+          "name" : "PlayedFlyingIntro",
+          "type" : "level",
+          "unlocked_at" : 1717264611
+       },
+       {
+          "ack" : false,
+          "name" : "RainStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265031
+       },
+       {
+          "ack" : true,
+          "name" : "StormGateDawn",
+          "type" : "level",
+          "unlocked_at" : 1717267648
+       },
+       {
+          "ack" : false,
+          "name" : "StormStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265037
+       },
+       {
+          "ack" : false,
+          "name" : "SunsetStatueForm",
+          "type" : "level",
+          "unlocked_at" : 1717265032
+       },
+       {
+          "ack" : true,
+          "name" : "ap06unlock_ap20_fetch_01_claimFx",
+          "type" : "level",
+          "unlocked_at" : 1717265536
+       },
+       {
+          "ack" : false,
+          "name" : "ap06unlock_ap20_fetch_01_quest_done",
+          "type" : "level",
+          "unlocked_at" : 1717264978
+       },
+       {
+          "ack" : false,
+          "name" : "ap06unlock_ap20_fetch_01_quest_started",
+          "type" : "level",
+          "unlocked_at" : 1717264834
+       },
+       {
+          "ack" : true,
+          "name" : "ap06unlock_ap20_fetch_03_claimFx",
+          "type" : "level",
+          "unlocked_at" : 1717265800
+       },
+       {
+          "ack" : false,
+          "name" : "ap06unlock_ap20_fetch_03_quest_done",
+          "type" : "level",
+          "unlocked_at" : 1717265792
+       },
+       {
+          "ack" : false,
+          "name" : "ap06unlock_ap20_fetch_03_quest_started",
+          "type" : "level",
+          "unlocked_at" : 1717265578
+       },
+       {
+          "ack" : false,
+          "name" : "ap06unlock_ap20_fetch_04_quest_started",
+          "type" : "level",
+          "unlocked_at" : 1717265908
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_CandleSpace",
+          "type" : "level",
+          "unlocked_at" : 1717264465
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_Dawn",
+          "type" : "level",
+          "unlocked_at" : 1717266382
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_MainStreet",
+          "type" : "level",
+          "unlocked_at" : 1717264610
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_MainStreetFlyingIntro",
+          "type" : "level",
+          "unlocked_at" : 1717264467
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_MainStreet_ShopOutfits",
+          "type" : "level",
+          "unlocked_at" : 1717264931
+       },
+       {
+          "ack" : false,
+          "name" : "first_loaded_MainStreet_ShopProps",
+          "type" : "level",
+          "unlocked_at" : 1717266204
+       },
+       {
+          "ack" : true,
+          "name" : "mainstreetRevealedMural",
+          "type" : "level",
+          "unlocked_at" : 1717266058
+       },
+       {
+          "ack" : false,
+          "name" : "tutorial_shop",
+          "type" : "level",
+          "unlocked_at" : 1717265038
+       }
+    ]
+ }
+ 

@@ -1,0 +1,84 @@
+/*
+POST /service/message/api/v1/mark_received HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: RjXwCmf
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 290
+
+
+*/
+//Request
+{
+    "messages" : [
+       {
+          "id" : "66919d2a610d74e457876227"
+       },
+       {
+          "id" : "66919d2a610d74e457876226"
+       },
+       {
+          "id" : "66919d2a610d74e457876225"
+       },
+       {
+          "id" : "66919d2a610d74e457876224"
+       }
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:26 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 361
+
+
+*/
+//Response
+{
+    "messages" : [
+       {
+          "payload" : {
+             "headers" : {
+                "id" : "66919d2a610d74e457876227",
+                "received_at" : 1720818986
+             }
+          }
+       },
+       {
+          "payload" : {
+             "headers" : {
+                "id" : "66919d2a610d74e457876226",
+                "received_at" : 1720818986
+             }
+          }
+       },
+       {
+          "payload" : {
+             "headers" : {
+                "id" : "66919d2a610d74e457876225",
+                "received_at" : 1720818986
+             }
+          }
+       },
+       {
+          "payload" : {
+             "headers" : {
+                "id" : "66919d2a610d74e457876224",
+                "received_at" : 1720818986
+             }
+          }
+       }
+    ],
+    "status" : "OK"
+ }
+ 

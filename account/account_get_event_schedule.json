@@ -1,0 +1,1932 @@
+/*
+POST /account/get_event_schedule HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: ivl2GQY
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:14 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 29937
+
+
+*/
+//Response
+{
+    "event_schedule" : {
+       "base_time" : 17046000,
+       "events" : [
+          {
+             "duration" : "1",
+             "name" : "aurora_exhaleinhale_countdown",
+             "when" : [ 1703772720, 1703787120 ]
+          },
+          {
+             "duration" : "10080",
+             "name" : "weekly_prop_rotation_13",
+             "when" : [ 1703376000 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_eyesofachild",
+             "when" : [ 1703774760, 1703789160 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_float",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap07",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_04",
+             "when" : [ 1610841600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_ap22_miniquest_shop",
+             "when" : [
+                1703686320,
+                1703686380,
+                1703686440,
+                1703686500,
+                1703686560,
+                1703686620,
+                1703686680,
+                1703686740,
+                1703686800,
+                1703686860,
+                1703686920,
+                1703686980,
+                1703687040,
+                1703687100,
+                1703687160,
+                1703687220
+             ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_queendom_countdown",
+             "when" : [ 1703775180 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap13_fetch_03",
+             "when" : [ 1626570000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_proud",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_day",
+             "when" : [ 1572134400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_cafe_serving",
+             "when" : [ 1697155200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniShop_03",
+             "when" : [ 1700956800 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_minigame_vote_rotation",
+             "when" : [
+                1703772600,
+                1703772720,
+                1703772840,
+                1703772960,
+                1703773080,
+                1703773200,
+                1703773320,
+                1703773440,
+                1703773560,
+                1703773680,
+                1703773800,
+                1703773920,
+                1703774040,
+                1703774160,
+                1703774280,
+                1703774400
+             ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_force",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap18_fetch_04",
+             "when" : [ 1668556800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_manta",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "ap18_ritual_05",
+             "when" : [ 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_whale",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "wildlifepark_cycle_overcast_night",
+             "when" : [ 1703773200, 1703773920, 1703774640 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap18",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap09_fetch_01",
+             "when" : [ 1592701200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap23_fetch_02",
+             "when" : [ 1705190400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_04",
+             "when" : [ 1682816400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap18_fetch_03",
+             "when" : [ 1667088000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_07",
+             "when" : [ 1684630800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_point",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "308160",
+             "name" : "global_ball_beach",
+             "when" : [ 1694908800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap14_fetch_04",
+             "when" : [ 1636243200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap12_fetch_04",
+             "when" : [ 1619917200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap17_fetch_09",
+             "when" : [ 1662249600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap21_fetch_03",
+             "when" : [ 1690678800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_06",
+             "when" : [ 1582502400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap23_fetch_03",
+             "when" : [ 1706400000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_03",
+             "when" : [ 1681603200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_beacon",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_seek",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "global_violin",
+             "when" : [ 1671321600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap19_fetch_04",
+             "when" : [ 1676160000 ]
+          },
+          {
+             "duration" : "8",
+             "name" : "wildlifepark_cycle_not_night_hint",
+             "when" : [ 1703772720, 1703773440, 1703774160 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_05",
+             "when" : [ 1645056000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap17",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_03",
+             "when" : [ 1690678800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap12",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_warrior",
+             "when" : [ 1703774040, 1703788440 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_07",
+             "when" : [ 1660438800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap12_fetch_02",
+             "when" : [ 1617494400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_06",
+             "when" : [ 1659229200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap19_fetch_03",
+             "when" : [ 1674950400 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_rain_bonfirecamp",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_armwave",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap22",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap09_fetch_03",
+             "when" : [ 1594515600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap12_fetch_01",
+             "when" : [ 1616284800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_dusk",
+             "when" : [ 1570320000 ]
+          },
+          {
+             "duration" : "0",
+             "name" : "gen_shop_monthly_reset",
+             "when" : [ 1705449600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap14_fetch_05",
+             "when" : [ 1637452800 ]
+          },
+          {
+             "duration" : "110880",
+             "name" : "season_23",
+             "when" : [ 1703980800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_cry",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_01",
+             "when" : [ 1688259600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap12_fetch_05",
+             "when" : [ 1621126800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_shy",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniHouse_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniShop_03",
+             "when" : [ 1700956800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap13_fetch_01",
+             "when" : [ 1625360400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap18_fetch_01",
+             "when" : [ 1664668800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_fetch_02",
+             "when" : [ 1696723200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_02",
+             "when" : [ 1680998400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_01",
+             "when" : [ 1600560000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniSocial_03",
+             "when" : [ 1700352000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap17_fetch_05",
+             "when" : [ 1659229200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_nothanks",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap23",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap17_fetch_07",
+             "when" : [ 1660438800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap08_fetch_03",
+             "when" : [ 1586649600 ]
+          },
+          {
+             "duration" : "3",
+             "name" : "halloween_cauldron_spell",
+             "when" : [ 1703772960, 1703773440, 1703773920, 1703774400, 1703774880 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_02",
+             "when" : [ 1578182400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_03",
+             "when" : [ 1602979200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_08",
+             "when" : [ 1685840400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_07",
+             "when" : [ 1684630800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_09",
+             "when" : [ 1685322000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "sunset_village_spell_shop",
+             "when" : [ 1654390800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_night",
+             "when" : [ 1572739200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_nature_vortex1",
+             "when" : [ 1664928000 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "wildlifepark_cycle_morning",
+             "when" : [ 1703772720, 1703773440, 1703774160 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_04",
+             "when" : [ 1643846400 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_orbit_countdown",
+             "when" : [ 1703775000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap12_fetch_03",
+             "when" : [ 1618704000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap23_fetch_01",
+             "when" : [ 1703980800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_thumbsup",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_fetch_03",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_eelwatercreature",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_yawn",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniSocial_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_10",
+             "when" : [ 1662249600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_01",
+             "when" : [ 1680393600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniHouse_02",
+             "when" : [ 1697932800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_06",
+             "when" : [ 1612396800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "season_06_ever_started",
+             "when" : [ 1570320000 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_skyway_speedtube",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "3",
+             "name" : "aurora_orbit",
+             "when" : [ 1703775000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "collectible_questap23_duo",
+             "when" : [ 1706400000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap08_fetch_01",
+             "when" : [ 1584835200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap16_fetch_04",
+             "when" : [ 1652576400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap23_fetch_01",
+             "when" : [ 1703980800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_05",
+             "when" : [ 1683421200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap17_fetch_01",
+             "when" : [ 1656810000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "event_rain_tcandles3",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap18_fetch_01",
+             "when" : [ 1664668800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_laugh",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap09_fetch_02",
+             "when" : [ 1593306000 ]
+          },
+          {
+             "duration" : "10",
+             "name" : "mainstreet_cycle_sunset_B",
+             "when" : [ 1703774400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap16_fetch_01",
+             "when" : [ 1648944000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "global_cafe_open",
+             "when" : [ 1697155200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_05",
+             "when" : [ 1604188800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap13_fetch_04",
+             "when" : [ 1627779600 ]
+          },
+          {
+             "duration" : "134280",
+             "name" : "global_merchandise_live",
+             "when" : [ 1703181600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap21_fetch_05",
+             "when" : [ 1693094400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_sneaky",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999998",
+             "name" : "spiritshopitem_ap06unlock_ap08_fetch_04",
+             "when" : [ 1587862800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "nature_geyser_on",
+             "when" : [ 1601769600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "global_weekend_shop2",
+             "when" : [ 1759363200 ]
+          },
+          {
+             "duration" : "3",
+             "name" : "fireworks_show_act1",
+             "when" : [ 1703789100 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap09_fetch_04",
+             "when" : [ 1595725200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "collectible_duetbow",
+             "when" : [ 1706400000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap19_fetch_01",
+             "when" : [ 1672531200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_05",
+             "when" : [ 1604188800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_wave",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap10",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap13_fetch_02",
+             "when" : [ 1625965200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap18_fetch_02",
+             "when" : [ 1665878400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_01",
+             "when" : [ 1600560000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniSocial_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "0",
+             "name" : "gen_shop_yearly_reset",
+             "when" : [ 1718672400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_02",
+             "when" : [ 1609286400 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_warrior_countdown",
+             "when" : [ 1703773980, 1703788380 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "global_pc_launch",
+             "when" : [ 1695686400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap14_fetch_03",
+             "when" : [ 1635033600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_08",
+             "when" : [ 1660438800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_03",
+             "when" : [ 1578787200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap23_fetch_02",
+             "when" : [ 1705190400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "quest_tgc_office_scott",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_08",
+             "when" : [ 1685840400 ]
+          },
+          {
+             "duration" : "48",
+             "name" : "aurora_concert",
+             "when" : [ 1703772600, 1703787000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap16",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_02",
+             "when" : [ 1601769600 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_exhaleinhale",
+             "when" : [ 1703772720, 1703787120 ]
+          },
+          {
+             "duration" : "0",
+             "name" : "gen_shop_daily_reset",
+             "when" : [ 1703808000 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_theseed_countdown",
+             "when" : [ 1703774400, 1703788800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap18_fetch_02",
+             "when" : [ 1665878400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_backflip",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap21_fetch_02",
+             "when" : [ 1689469200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap13_fetch_05",
+             "when" : [ 1629594000 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_runaway_countdown",
+             "when" : [ 1703773080, 1703787480 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniShop_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_ap22_miniquest_house",
+             "when" : [
+                1703686320,
+                1703686380,
+                1703686440,
+                1703686500,
+                1703686560,
+                1703686620,
+                1703686680,
+                1703686740,
+                1703686800,
+                1703686860,
+                1703686920,
+                1703686980,
+                1703687040,
+                1703687100,
+                1703687160,
+                1703687220
+             ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_dawn",
+             "when" : [ 1571529600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap12_fetch_02",
+             "when" : [ 1617494400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_rain",
+             "when" : [ 1574812800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap19_fetch_05",
+             "when" : [ 1677974400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "event_rain_tcandle_master",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap23_fetch_05",
+             "when" : [ 1708819200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_fetch_02",
+             "when" : [ 1696723200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_07",
+             "when" : [ 1613260800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_03",
+             "when" : [ 1642636800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_02",
+             "when" : [ 1601769600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap18_fetch_03",
+             "when" : [ 1667088000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_04",
+             "when" : [ 1603584000 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_exhaleinhale_wrap",
+             "when" : [ 1703772960, 1703787360 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_salute",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap14_fetch_04",
+             "when" : [ 1636243200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniSocial_02",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap19_fetch_03",
+             "when" : [ 1674950400 ]
+          },
+          {
+             "duration" : "15",
+             "name" : "ap18_ritual_timer_15",
+             "when" : [ 1703772000, 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap13_fetch_03",
+             "when" : [ 1626570000 ]
+          },
+          {
+             "duration" : "7",
+             "name" : "ap18_ritual_04_audience_lobby",
+             "when" : [ 1703772480, 1703773380, 1703774280, 1703775180 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap20",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap16_fetch_03",
+             "when" : [ 1651366800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_04",
+             "when" : [ 1603584000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_strong",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap12_fetch_05",
+             "when" : [ 1621126800 ]
+          },
+          {
+             "duration" : "10080",
+             "name" : "musicshop_weekly_rotation_02",
+             "when" : [ 1703376000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_05",
+             "when" : [ 1659229200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "global_fireworks_show",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_runaway",
+             "when" : [ 1703773140, 1703787540 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_03",
+             "when" : [ 1658019600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_ohno",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "16",
+             "name" : "fireworks_show_medpad",
+             "when" : [ 1703789040 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap09_fetch_02",
+             "when" : [ 1593306000 ]
+          },
+          {
+             "duration" : "10080",
+             "name" : "social_feed_prompt_surprise_party",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_ap22_miniquest_social",
+             "when" : [
+                1703686320,
+                1703686380,
+                1703686440,
+                1703686500,
+                1703686560,
+                1703686620,
+                1703686680,
+                1703686740,
+                1703686800,
+                1703686860,
+                1703686920,
+                1703686980,
+                1703687040,
+                1703687100,
+                1703687160,
+                1703687220
+             ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap16_fetch_05",
+             "when" : [ 1653501600 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "ap18_ritual_04",
+             "when" : [ 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "ap18_ritual_02",
+             "when" : [ 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_05",
+             "when" : [ 1579996800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap17_fetch_03",
+             "when" : [ 1658019600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_warrior_wrap",
+             "when" : [ 1703774280, 1703788680 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap11",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "rain_darkstone_0",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap18_fetch_05",
+             "when" : [ 1669507200 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_softinside_countdown",
+             "when" : [ 1703773500, 1703787900 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap14_fetch_01",
+             "when" : [ 1632614400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_04",
+             "when" : [ 1691888400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniHouse_03",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_01",
+             "when" : [ 1656810000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap14_fetch_02",
+             "when" : [ 1633824000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_06",
+             "when" : [ 1684026000 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_theseed",
+             "when" : [ 1703774460, 1703788860 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap23_fetch_03",
+             "when" : [ 1706400000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "global_mainstreet",
+             "when" : [ 1684026000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_05",
+             "when" : [ 1611619200 ]
+          },
+          {
+             "duration" : "3",
+             "name" : "wildlifepark_cycle_day",
+             "when" : [ 1703772900, 1703773620, 1703774340 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "prairie_quest",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_01",
+             "when" : [ 1640476800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap19_fetch_04",
+             "when" : [ 1676160000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap09_fetch_05",
+             "when" : [ 1596330000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap12_fetch_04",
+             "when" : [ 1619917200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_rhythmicclap",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_dusk_spitroastpassive",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap16_fetch_04",
+             "when" : [ 1652576400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_brave",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_bow",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap12_fetch_03",
+             "when" : [ 1618704000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "global_qixi_couple",
+             "when" : [ 1705708800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_06",
+             "when" : [ 1684026000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniHouse_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_03",
+             "when" : [ 1681603200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_04",
+             "when" : [ 1579478400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_butterfly",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_love",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "quest_sunset_flyrace",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "9",
+             "name" : "aurora_soundbath_session",
+             "when" : [ 1703772600, 1703773200, 1703773800, 1703774400, 1703775000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniShop_01",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap10_fetch_06",
+             "when" : [ 1605398400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_lookaround",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_fetch_05",
+             "when" : [ 1700956800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap14_fetch_05",
+             "when" : [ 1637452800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap09_fetch_03",
+             "when" : [ 1594515600 ]
+          },
+          {
+             "duration" : "5",
+             "name" : "mainstreet_cycle_overcast_day_B",
+             "when" : [ 1703772600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap16_fetch_01",
+             "when" : [ 1648944000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap18_fetch_05",
+             "when" : [ 1669507200 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_sunset_labyrinth",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap07_fetch_01",
+             "when" : [ 1577577600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "social_wax_on",
+             "when" : [ 1613433600 ]
+          },
+          {
+             "duration" : "15",
+             "name" : "global_nature_geyser",
+             "when" : [ 1703772000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap19_fetch_01",
+             "when" : [ 1672531200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_nature_vortex3",
+             "when" : [ 1664928000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_02",
+             "when" : [ 1680998400 ]
+          },
+          {
+             "duration" : "4",
+             "name" : "aurora_queendom",
+             "when" : [ 1703775240 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_06",
+             "when" : [ 1605398400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap14_fetch_03",
+             "when" : [ 1635033600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap13_fetch_01",
+             "when" : [ 1625360400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap08",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap16_fetch_02",
+             "when" : [ 1650153600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_05",
+             "when" : [ 1683421200 ]
+          },
+          {
+             "duration" : "15",
+             "name" : "social_rain_grandmatable",
+             "when" : [ 1703773800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap11_fetch_04",
+             "when" : [ 1610841600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_fetch_01",
+             "when" : [ 1696118400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_ghost",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap13_fetch_05",
+             "when" : [ 1629594000 ]
+          },
+          {
+             "duration" : "7",
+             "name" : "ap18_ritual_03_audience_lobby",
+             "when" : [ 1703772480, 1703773380, 1703774280, 1703775180 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "stormy_rain",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_concert_countdown",
+             "when" : [ 1703772600, 1703787000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_09",
+             "when" : [ 1662249600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap21",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1439",
+             "name" : "social_prairie_cozycave",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_02",
+             "when" : [ 1656810000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_cold",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_bird",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_05_part02",
+             "when" : [ 1693094400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_sorry",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap13",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniSocial_02",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_handstand",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap13_fetch_02",
+             "when" : [ 1625965200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap14_fetch_01",
+             "when" : [ 1632614400 ]
+          },
+          {
+             "duration" : "7",
+             "name" : "ap18_ritual_02_audience_lobby",
+             "when" : [ 1703772480, 1703773380, 1703774280, 1703775180 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_miniShop_02",
+             "when" : [ 1699142400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniHouse_03",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_05",
+             "when" : [ 1693094400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_01",
+             "when" : [ 1680393600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap19_fetch_02",
+             "when" : [ 1673740800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_cape",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap10_fetch_03",
+             "when" : [ 1602979200 ]
+          },
+          {
+             "duration" : "7",
+             "name" : "ap18_ritual_05_audience_lobby",
+             "when" : [ 1703772480, 1703773380, 1703774280, 1703775180 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap16_fetch_05",
+             "when" : [ 1653501600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "sunset_village_fishing",
+             "when" : [ 1654390800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_fetch_01",
+             "when" : [ 1696118400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "quest_sunset_race",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap17_fetch_04",
+             "when" : [ 1658019600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap15",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap21_fetch_01",
+             "when" : [ 1688259600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap19",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "day_boat",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_nature_vortex2",
+             "when" : [ 1664928000 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_die",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap16_fetch_03",
+             "when" : [ 1651366800 ]
+          },
+          {
+             "duration" : "0",
+             "name" : "hub_clocktower",
+             "when" : [ 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_fetch_05",
+             "when" : [ 1700956800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap14_fetch_02",
+             "when" : [ 1633824000 ]
+          },
+          {
+             "duration" : "3",
+             "name" : "wildlifepark_cycle_night",
+             "when" : [ 1703772540, 1703773260, 1703773980, 1703774700 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_02",
+             "when" : [ 1641168000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap18_fetch_04",
+             "when" : [ 1668556800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_10",
+             "when" : [ 1686445200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap12_fetch_01",
+             "when" : [ 1616284800 ]
+          },
+          {
+             "duration" : "5",
+             "name" : "aurora_softinside",
+             "when" : [ 1703773560, 1703787960 ]
+          },
+          {
+             "duration" : "25",
+             "name" : "mainstreet_cycle_day_B",
+             "when" : [ 1703772900 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_cheer",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap15_fetch_06",
+             "when" : [ 1646265600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap20_fetch_09",
+             "when" : [ 1685322000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_04",
+             "when" : [ 1682816400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "dusk_darkstone_0",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_come",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "0",
+             "name" : "gen_shop_weekly_reset",
+             "when" : [ 1703980800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_pray",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_pout",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "wildlifepark_cycle_sunset",
+             "when" : [ 1703773080, 1703773800, 1703774520 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_fetch_sunset",
+             "when" : [ 1570924800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "social_turtle_on",
+             "when" : [ 1633219200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_wipe",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap19_fetch_02",
+             "when" : [ 1673740800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "feast_toyvendorforever",
+             "when" : [ 1685840400 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap06",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_runaway_wrap",
+             "when" : [ 1703773380, 1703787780 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap21_fetch_04",
+             "when" : [ 1691888400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap16_fetch_02",
+             "when" : [ 1650153600 ]
+          },
+          {
+             "duration" : "10080",
+             "name" : "wing_buff_conversion_period",
+             "when" : [ 1703289600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_raisetheroof",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniSocial_03",
+             "when" : [ 1700352000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "global_office_shop",
+             "when" : [
+                0,
+                31536000,
+                63158400,
+                94694400,
+                126230400,
+                157766400,
+                189388800,
+                220924800,
+                252460800,
+                283996800,
+                315619200,
+                347155200,
+                378691200,
+                410227200,
+                441849600,
+                473385600
+             ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap23_fetch_04",
+             "when" : [ 1707609600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "fetch_manta_fertilizer_01",
+             "when" : [
+                1703772720,
+                1703772960,
+                1703773200,
+                1703773440,
+                1703773680,
+                1703773920,
+                1703774160,
+                1703774400,
+                1703774640
+             ]
+          },
+          {
+             "duration" : "1",
+             "name" : "ap18_ritual_03",
+             "when" : [ 1703772900, 1703773800, 1703774700 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap14",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "2",
+             "name" : "aurora_softinside_wrap",
+             "when" : [ 1703773860, 1703788260 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_03",
+             "when" : [ 1609977600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "visiting_vendor_questap09",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap09_fetch_01",
+             "when" : [ 1592701200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_fetch_04",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_twirl",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_sunset_yeti_race",
+             "when" : [ 1654390800 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "collectible_scared",
+             "when" : [ 1703721600 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "global_weekend_shop",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "44640",
+             "name" : "social_feed_prompt_hide_seek",
+             "when" : [ 1702771200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap11_fetch_01",
+             "when" : [ 1608508800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap20_fetch_10",
+             "when" : [ 1686445200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap13_fetch_04",
+             "when" : [ 1627779600 ]
+          },
+          {
+             "duration" : "25",
+             "name" : "season_21_deersummon",
+             "when" : [ 1703772000, 1703773800, 1703775600 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "aurora_eyesofachild_countdown",
+             "when" : [ 1703774700, 1703789100 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap09_fetch_04",
+             "when" : [ 1595725200 ]
+          },
+          {
+             "duration" : "1440",
+             "name" : "global_daily_reset_time",
+             "when" : [ 1703721600, 1703808000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniHouse_02",
+             "when" : [ 1697932800 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap19_fetch_05",
+             "when" : [ 1677974400 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap08_fetch_02",
+             "when" : [ 1585440000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap21_fetch_02",
+             "when" : [ 1689469200 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_fetch_04",
+             "when" : [ 1699747200 ]
+          },
+          {
+             "duration" : "1",
+             "name" : "wildlifepark_cycle_overcast_day",
+             "when" : [ 1703772840, 1703773560, 1703774280 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "spiritshopitem_ap06unlock_ap22_fetch_03",
+             "when" : [ 1697328000 ]
+          },
+          {
+             "duration" : "99999999",
+             "name" : "quest_ap22_miniShop_02",
+             "when" : [ 1699142400 ]
+          }
+       ],
+       "server_time" : 1720818974,
+       "valid_until" : 1720820774
+    }
+ }
+ 

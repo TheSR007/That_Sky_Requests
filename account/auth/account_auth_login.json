@@ -1,0 +1,133 @@
+/*
+POST /account/auth/login HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: viOoAJQ
+x-sky-level-id: 3526133726
+Content-Length: 1381
+
+
+*/
+//Request
+{
+    "device" : "00000000-0000-0000-0000-000000000000",
+    "device_key" : "A/cWqIB7p2KOtBmqFiZp9W2j+dhQXq8zOzX0f0rnaFjr",
+    "device_name" : "Unknown",
+    "device_token" : "",
+    "external_credentials" : {
+       "alias" : "Buga_Luga007",
+       "external_account_type" : "Steam",
+       "player_id" : "76561199698282316",
+       "signature" : "140000002f8193240970dd484c07986701001001119b9166180000000100000005000000a04b5443044b11d0a5981f0003000000b200000032000000040000004c079867010010012a7b230054c8931b0138a8c000000000129b9166924aad66010096be0c000000000004a4fc0d90832fff0d6ebe416afeeda1e3956b5ddc38ef9c6735bc9e9aa9282657f07f9048643ac4c3737cd6d1bce3f0b1cfcb0654fe67e490107b5277d79d317b137f05b3f2cf9469b374b203b7523b1d2c0cbbfb48081dc4ef632457a26a6015d1bd0d0af34972d4675818eb458eb4861dea69076208352907f70877f729de"
+    },
+    "hashes" : [
+       1913095961,
+       1316250610,
+       2510118661,
+       3834246998,
+       1731370194,
+       2265070178,
+       618912557,
+       2568820904,
+       3068255152,
+       4029015281,
+       2245054157,
+       3397144677,
+       4143622099,
+       1365629050,
+       3851695576,
+       1161226873,
+       833750417,
+       765041499,
+       3038066977,
+       396963162,
+       1906316240,
+       963033178,
+       3751658729,
+       1755094869,
+       816751585,
+       4133182092,
+       3691335459,
+       2529179106,
+       2825962898
+    ],
+    "integrity" : true,
+    "key" : "0000000000000000000000000000000000000000000000000000000000000000",
+    "production" : false,
+    "sig" : "MEQCIH0t3Sz0Ixhr7RdwThHKmI9oj67SqTx6Z9fL6eaRxcUqAiBhUfFkdF6vKZ5GD72BBotut19qITLh5FrlIuu8IdzfDQ==",
+    "sig_ts" : 1720818968,
+    "tos_version" : 4,
+    "type" : "Steam",
+    "user" : "00000000-0000-0000-0000-000000000000"
+ } 
+
+/*
+
+*/
+//Response
+{
+    "authinfo" : {
+       "device" : "",
+       "key" : "no_bcrypt",
+       "recovery_token" : "",
+       "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+    },
+    "external_links" : [
+       {
+          "alias" : "Buga_Luga007",
+          "player_id" : "76561199698282316",
+          "type" : "Steam"
+       }
+    ],
+    "resource_list" : [
+       "device_capabilities",
+       "userdata",
+       "set_friends",
+       "set_friend_statues",
+       "online_friends",
+       "set_rank",
+       "currency",
+       "forge_rates",
+       "motd",
+       "outfit_defs",
+       "achievements",
+       "achievement_stats",
+       "relationship_defs",
+       "questionnaires",
+       "event_schedule",
+       "set_world_quests",
+       "iap_list",
+       "invite_list",
+       "unlocks",
+       "get_shop",
+       "spirit_shops",
+       "collectibles",
+       "wing_buffs",
+       "gift_messages",
+       "set_app_badge_number",
+       "get_consumable_defs",
+       "get_consumables",
+       "get_buff_defs",
+       "get_buffs",
+       "get_lootboxes",
+       "checkpoints",
+       "generic_shop_defs",
+       "external_account_friends",
+       "serendipity_matches",
+       "get_star_tag_defs",
+       "status_unlocks",
+       "free_gifts",
+       "get_map_defs",
+       "achievement_defs",
+       "achievement_stats_tracking",
+       "event_currency_defs",
+       "infractions",
+       "get_user_profile",
+       "emote_sequences",
+       "video_defs",
+       "messages"
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933"
+ } 

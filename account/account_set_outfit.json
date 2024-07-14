@@ -1,0 +1,171 @@
+/*
+POST /account/set_outfit HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: KIKdBCg
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1509719447
+Content-Length: 716
+
+
+*/
+//Request
+{
+    "outfit" : {
+       "arms" : {
+          "id" : 0,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "attitude" : 0,
+       "body" : {
+          "id" : 3691343236,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "feet" : {
+          "id" : 1532093990,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "hair" : {
+          "id" : 158418233,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "hat" : {
+          "id" : 1470462579,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "height" : 0.32055640,
+       "horn" : {
+          "id" : 3680499229,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "mask" : {
+          "id" : 3663390882,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "neck" : {
+          "id" : 3800884691,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "prop" : {
+          "id" : 2035109393,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "scale" : 0.008167967199999999,
+       "seed" : 8016,
+       "voice" : 0,
+       "wing" : {
+          "id" : 2245279351,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       }
+    },
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:18:27 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 614
+
+
+*/
+//Response
+{
+    "result" : "ok",
+    "set_outfit" : {
+       "arms" : {
+          "id" : 0,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "attitude" : "0",
+       "body" : {
+          "id" : 3691343236,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "feet" : {
+          "id" : 1532093990,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "hair" : {
+          "id" : 158418233,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "hat" : {
+          "id" : 1470462579,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "height" : 0.3205564055560303,
+       "horn" : {
+          "id" : 3680499229,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "mask" : {
+          "id" : 3663390882,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "neck" : {
+          "id" : 3800884691,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "prop" : {
+          "id" : 2035109393,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       },
+       "scale" : 0.008167967321492012,
+       "seed" : 8016,
+       "voice" : 0,
+       "wing" : {
+          "id" : 2245279351,
+          "mask" : 0,
+          "pat" : 0,
+          "tex" : 0
+       }
+    }
+ }
+ 

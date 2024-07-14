@@ -1,0 +1,111 @@
+/*
+POST /account/get_vars HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: wXtcauG
+x-sky-level-id: 3526133726
+Content-Length: 2
+
+
+*/
+//Request
+{}
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:14:38 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 2207
+
+
+*/
+//Response
+{
+    "vars" : {
+       "ab_mainstreet_balance" : 0,
+       "ab_mainstreet_enabled" : 1,
+       "afk_time" : 120,
+       "analytics_charge_interval" : 2,
+       "analytics_ping_distance" : 10,
+       "analytics_ping_interval" : 30,
+       "app_review_orbit" : 1,
+       "app_review_rain" : 1,
+       "aurora_apple_music_url" : "https://apple.co/Sky-Concert-In-The-Light",
+       "beta_mode" : 0,
+       "c_max_friend_pages" : 6,
+       "candle_forge_cost" : 150,
+       "carl" : "06609880-a195-44c1-81f9-7958e0199efa",
+       "chat_server_enabled" : 1,
+       "collectible_dup_interval_sec" : 7200,
+       "collectible_dup_wax_reward" : 0,
+       "dailyquestgiver" : "472f7381-4a46-4c05-84d8-66a777556066",
+       "diving_time" : 60,
+       "enable_afk_wax_pickups" : 0,
+       "enable_buddy_requests" : 1,
+       "enable_constellation_revisions" : 1,
+       "enable_diminishing_returns" : 1,
+       "enable_facebook_shrine" : 1,
+       "enable_feed_comments" : 1,
+       "enable_feed_comments_toggle" : 1,
+       "enable_feed_curated_refresh" : 1,
+       "enable_feed_follow" : 1,
+       "enable_feed_new_ui" : 1,
+       "enable_feed_peek_over_shoulder" : 1,
+       "enable_feed_superlike" : 1,
+       "enable_inbox" : 1,
+       "enable_instagram_shrine" : 1,
+       "enable_joint_damage_system" : 1,
+       "enable_map_menu" : 1,
+       "enable_map_shrines" : 1,
+       "enable_placeables_in_memory" : 1,
+       "enable_recording_candle" : 1,
+       "enable_resource_sync" : 1,
+       "enable_stage" : 1,
+       "enable_stage_placement_count" : 1,
+       "enable_stage_prairie_hub" : 1,
+       "enable_stage_tgc_office" : 1,
+       "enable_stage_volume_mode" : 1,
+       "enable_star_nfc" : 1,
+       "enable_storm_end_death_march" : 1,
+       "enable_superlike_multi_reward" : 1,
+       "enable_tgui_chatlog" : 1,
+       "enable_tgui_statecounter" : 1,
+       "enable_twitter_shrine" : 1,
+       "enable_web_remote" : 1,
+       "enable_web_remote_other" : 1,
+       "enable_web_remote_ps4" : 1,
+       "enable_web_remote_switch" : 1,
+       "feed_translation_enabled" : 1,
+       "flightmode_revisions_controls" : 1,
+       "flightmode_revisions_ui" : 1,
+       "full_afk_time" : 600,
+       "gift_heart_wax_count" : 5,
+       "gift_min_level_required" : "RainEnd",
+       "gift_wax_count" : 5,
+       "heart_forge_cost" : 300,
+       "level_storm" : 1,
+       "metaloop" : 1,
+       "minimum_gpu_rating" : 540,
+       "onboarding_mainstreet_00" : 1,
+       "past_collectibles_enabled" : 1,
+       "pickup_interval_sec" : 79200,
+       "prestige_forge_cost" : 4,
+       "push_notifications_enabled" : 1,
+       "season_candle_forge_cost" : 12,
+       "serendipity_match" : 1,
+       "shared_space_grid_resolution" : 6,
+       "shop_enabled" : 1,
+       "snorkel_diving_time_add" : 15,
+       "stage_claim_time" : 300,
+       "system_achievements" : 1,
+       "test_dawn_revamp_01" : 1,
+       "translation_enabled" : 1,
+       "websocket_enabled" : 1,
+       "welcome" : "8d1a1882-cfb8-4c00-a134-daa449388799"
+    }
+ }
+ 

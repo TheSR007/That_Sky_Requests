@@ -1,0 +1,138 @@
+/*
+POST /account/purchase_spirit_shop_item HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: J4iY8BZ
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1649439303
+Content-Length: 232
+
+
+*/
+//Request
+{
+    "cs_end" : false,
+    "item_name" : "relationship_ability_ap06unlock_ap20_hug",  //can also be ap06unlock_ap20_fetch_04/emote_upgrade_butterfly_01/lootbox_common_19
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "spirit_id" : 1582353854,
+    "unlock_id" : 2269148129,
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:20:13 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 271
+
+
+*/
+//Response
+{
+    "currency" : {      //deducting the currency
+       "candles" : 11,
+       "prestige" : 7,
+       "prestige_vip" : 7,
+       "wax" : 91
+    },
+    "result" : "ok",
+    "update_unlocks" : [        //updating the currency
+       {
+          "ack" : false,
+          "created_at" : 0,
+          "name" : "relationship_ability_ap06unlock_ap20_hug",
+          "type" : "spiritshop"
+       }
+    ]
+    /*
+    But depending on what the item is there is also updating the collectibles when using emote_upgrade_butterfly_01 or giving user a lootbox when lootbox_common_19
+    "collectibles" : [
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "butterfly",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "cape",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "flame",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "home",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "normal",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "point",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "sit",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "skykid",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      }
+   ],
+
+
+
+   and for lootbox
+    "get_lootboxes" : [
+      {
+         "consumable_type" : "energy",
+         "count" : 1,
+         "currency_type" : "",
+         "lootbox_id" : "lootbox_common_19",
+         "redeemed" : false
+      }
+    ],
+
+    */
+ }
+ 

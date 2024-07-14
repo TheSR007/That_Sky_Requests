@@ -1,0 +1,53 @@
+/*
+POST /service/infraction/api/v1/get_infractions_status_many HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 7BHPNnC
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1509719447
+Content-Length: 193
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_ids" : [
+       "76c06958-484d-4a31-9553-fd0a8dd106ba",
+       "aa3a862c-9e3a-45a3-bb9b-c2ee8bd0e02f",
+       "b92c3e3a-9cfc-4af8-8e46-0fd303de7297",
+       "559cad1f-2a35-4f5a-a53d-b5e9ce5fb0e9",
+       "3c715bbe-12ca-44d6-b08c-575fc086212d"
+    ]
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:45 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 111
+
+
+*/
+//Response
+{
+    "player_access_status" : [
+       {
+          "access_status" : [],
+          "user_id" : "3c715bbe-12ca-44d6-b08c-575fc086212d"
+       },
+       {
+          "access_status" : [],
+          "user_id" : "aa3a862c-9e3a-45a3-bb9b-c2ee8bd0e02f"
+       }
+    ],
+    "status" : "OK"
+ }
+ 

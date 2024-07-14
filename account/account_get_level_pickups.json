@@ -1,0 +1,245 @@
+/*
+POST /account/get_level_pickups HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 6Mlu5uH
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 160
+
+
+*/
+/*
+uint32_t fnv1a32(const std::string& data) {
+    const uint32_t FNV_Offset_Basis_32 = 0x811C9DC5;
+    const uint32_t FNV_Prime_32 = 0x01000193;
+    uint32_t h = FNV_Offset_Basis_32;
+
+    for (char c : data) {
+        h = (h ^ static_cast<uint32_t>(c)) * FNV_Prime_32;
+    }
+
+    return h;
+}
+*/
+
+//Request
+{
+    "level" : 3526133726,    //they compress the level name using fnv1a32(const std::string& levelname) 
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:27 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 3671
+
+
+*/
+//Response
+{
+    "global_pickups" : [],
+    "level" : 3526133726,
+    "pickup_emitters" : [
+       {
+          "emitter_name" : "CandlespaceBlizz",
+          "events" : [
+             {
+                "active_duration" : 1439,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 6,
+                "event_name" : "social_blizz_sm",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "social_blizzard",
+                "preactive_duration" : 0
+             },
+             {
+                "active_duration" : 1439,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 4,
+                "event_name" : "social_blizz_lg",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "social_blizzard",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "CandlespaceSnowHutFire",
+          "events" : [
+             {
+                "active_duration" : 1439,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 6,
+                "event_name" : "social_snowhutfire_sm",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "social_blizzard",
+                "preactive_duration" : 0
+             },
+             {
+                "active_duration" : 1439,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 4,
+                "event_name" : "social_snowhutfire_lg",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "social_blizzard",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "RainbowEvent",
+          "events" : [
+             {
+                "active_duration" : 20160,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 2,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 6,
+                "event_name" : "social_rainbow_on",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 500,
+                "pool_name" : "event_rainbow",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "SakuraEmitterBlooming",
+          "events" : [
+             {
+                "active_duration" : 4320,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 12,
+                "event_name" : "global_bloom_sakura_bloom_wax02",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "event_bloom_2022",
+                "preactive_duration" : 0
+             },
+             {
+                "active_duration" : 4320,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 36,
+                "event_name" : "global_bloom_sakura_bloom_wax01",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "event_bloom_2022",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "SakuraEmitterFalling",
+          "events" : [
+             {
+                "active_duration" : 8640,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 6,
+                "event_name" : "global_bloom_sakura_fall_wax02",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "event_bloom_2022",
+                "preactive_duration" : 0
+             },
+             {
+                "active_duration" : 4320,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 9,
+                "event_name" : "global_bloom_sakura_fall_wax01",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "event_bloom_2022",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "SummerBonfireMd",
+          "events" : [
+             {
+                "active_duration" : 20160,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 17,
+                "event_name" : "global_summer_md",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "global_summer_fire",
+                "preactive_duration" : 0
+             }
+          ]
+       },
+       {
+          "emitter_name" : "SummerBonfireSm",
+          "events" : [
+             {
+                "active_duration" : 10080,
+                "chunk_size_amount" : [ 1, 0, 0 ],
+                "chunk_size_likelihood" : [ 1.0, 0.0, 0.0 ],
+                "chunks_per_emit" : 1,
+                "collected" : 0,
+                "currency_type" : "wax",
+                "emit_interval" : 24,
+                "event_name" : "global_summer_sm",
+                "last_chunk_seq" : -1,
+                "pool_amount" : 1000,
+                "pool_name" : "global_summer_fire",
+                "preactive_duration" : 0
+             }
+          ]
+       }
+    ],
+    "pickups" : []
+ }
+ 

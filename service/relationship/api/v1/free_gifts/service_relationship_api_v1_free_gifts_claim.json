@@ -1,0 +1,44 @@
+/*
+POST /service/relationship/api/v1/free_gifts/claim HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.22631; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: HKQ2sbw
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+session: 2b393ebf9b28bb875b8a9146ba554a66
+x-sky-level-id: 1509719447
+Content-Length: 212
+
+*/
+//Request
+{
+    "from_id" : "d4a641b9-cdc1-49b6-9cd5-f63abc35740c",
+    "gift_id" : 13198905963,
+    "session" : "2b393ebf9b28bb875b8a9146ba554a66",
+    "user" : "7bcff223-37a6-4856-a7ba-d23845079b3c",
+    "user_id" : "7bcff223-37a6-4856-a7ba-d23845079b3c"
+ }
+ 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Sun, 14 Jul 2024 13:12:36 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 213
+
+*/
+//Response
+{
+    "delete_claimed_free_gift" : 13198905963,
+    "get_buffs" : [],
+    "get_buffs_sign" : "56326f04d295593b791366257a2b07ef8dec36e3ea66d48613488e155932297f",
+    "result" : "ok",
+    "set_app_badge_number" : 4,
+    "update_currency" : {
+       "heart_wax" : 95
+    }
+ }
+ 

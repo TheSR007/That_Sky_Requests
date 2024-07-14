@@ -1,0 +1,72 @@
+/*
+POST /service/message/api/v1/get HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 2DNcDMl
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 2477345666
+Content-Length: 188
+
+
+*/
+//Request
+{
+    "messages" : [
+       {
+          "id" : "66919d2a610d74e457876227"
+       }
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ }
+ 
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:30:37 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 4712
+
+
+*/
+//Response
+{
+    "status" : "OK",
+    "update_messages" : [
+       {
+          "payload" : {
+             "attachments" : [
+                {
+                   "name" : "SkyFest: An Anniversary Celebration Like No Other!0",
+                   "title" : "SkyFest: An Anniversary Celebration Like No Other!",
+                   "type" : "link",
+                   "url" : "https://www.thatskygame.com/news/skyfest-2024-an-anniversary-celebration-like-no-other"
+                }
+             ],
+             "body" : "Every year we throw a party to celebrate Sky’s birthday, but this year will bring something special—it’s not every day that Sky turns 5!\n\nWe’re calling Sky’s 5th Anniversary SkyFest, and for <b>two full weeks through July 26th</b> it combines in-person and real-life events for everyone to enjoy.\n\nIt all begins at a special time: <b>5:00 pm on July 12th PDT</b> (all times UTC -7). Once the event begins, meditate at a circle in Aviary Village near the Friendship Constellation statue. That will transport you to a special version of Aviary Village which will be the center of the SkyFest party, with parades and decorations and a <b>whole</b> lot more. \n\nWhere gates to the usual areas of Sky would stand, three familiar portals will take you to special locations instead:\n・History of Sky Gallery (Isle of Dawn)\n・Art of Sky Gallery (Hidden Forest)\n・Developer Talk Stage (Eye of Eden)\n\nWhy start at 5:00 pm PDT? Because that’s the same time that the in-person SkyFest celebration begins in Tokyo, Japan! For two days, the in-person event will have talks and presentations about all things Sky. \n\nWe knew, though, that not everyone would be able to attend the in-person event—so that’s why we’re bringing some of that in-person gathering into the game! \n\n<b>From July 12th through July 14th, you can watch special in-game livestreams of talks and more at SkyFest!</b> \n\n<b>July 12</b>\n・7:00 pm - Guided Tour of Sky’s History with the devs (History Gallery)\nJoin us on a live tour through the History Gallery as we share stories and more about how Sky became what it is today!\n\n・8:00 pm - SkyFest 2024 Keynote with Jenova Chen (Developer Talk Stage)\nLet’s just say, you don’t want to miss this one…\n\n・11:00 pm - How We Got 10,000 Players into a Level (Developer Talk Stage)\nHere’s a peek at how our engineering team created the tech that helped us break a GUINNESS WORLD RECORDS™ title!\n\n<b>July 13</b>\n・6:00 pm - Design at Record-Breaking Scale in Sky: Children of the Light (Developer Talk Stage)\nIt’s okay, you can cry! Learn how the team designed the AURORA Concert to make it a memorable and moving experience.\n\n・7:00 pm - Guided Tour of Sky’s Art with the devs (Art Gallery)\nTake a tour through the Art Gallery as we talk about some of the art that played a key role in Sky’s development.\n\n<b>July 14</b>\n・00:00 am - Designing to Reduce Toxicity in Online Games (Developer Talk Stage)\nHow do you make a game that welcomes everybody, with a world that allows compassion and generosity to blossom?\n\n\n<b>And there’s plenty more to see!</b> \n<b>Every hour</b> in these areas are other videos, screenings, and more. There’s even a Sky musician performance! (That’s July 14th at 1:00 am PDT by the way—hope you can be there. ❤︎) \n\nIf you miss the livestreams or videos during the opening weekend of SkyFest, don’t worry—the Developer Talk Stage is the place to catch them again when they replay during the rest of the event!\n\nIn between the visits to the galleries and stage, Aviary Village is absolutely party central. Catch an even bigger Aviary fireworks show, parades celebrating five years of Sky, and more—you never know what you might find if you search around the village!\n\nDon’t forget about event currency while you’re partying! Four star-shaped tokens can be found around the village each day. Use them to unlock some of this year’s new anniversary items!\n\nNew and returning anniversary cosmetics, props, and more can be purchased or unlocked with in-game currency from friendly Spirits in the Secret Area available in the Vault of Knowledge (which, by the way, is open to everyone for the event), or through the in-game shop.\n\nPhew, that was a lot for one message! And yes, that’s the condensed version. What can we say? We like throwing big parties!\n\nThe full in-game SkyFest celebration continues until 11:59 pm on July 26th. We can’t wait for you to join us!\n\n\n~thatgamecompany",
+             "headers" : {
+                "expires_at" : 1722063540,
+                "from" : "44e9f7e2-c9fb-4328-87d4-3544221856ce",
+                "has_attachments" : true,
+                "id" : "66919d2a610d74e457876227",
+                "received_at" : 1720818986,
+                "sent_at" : 1720818986,
+                "to" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+                "type" : "event"
+             },
+             "properties" : {
+                "hasCurrencies" : false,
+                "hasLinks" : true,
+                "hasUnlocks" : false
+             },
+             "subject" : "SkyFest: A Huge 5th Birthday Party for Everyone!"
+          }
+       }
+    ]
+ }
+ 

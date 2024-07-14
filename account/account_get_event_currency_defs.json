@@ -1,0 +1,153 @@
+/*
+POST /account/get_event_currency_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: yOOuk8
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:25 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 3130
+
+
+*/
+//Response
+{
+    "event_currency_defs" : [
+       {
+          "client_currency" : "event_candle_days_of_aurora",
+          "event_name" : "global_aurora",
+          "hud_icon" : "UiMenuEventCurrencyAurora",
+          "id" : "days_of_aurora",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_bloom",
+          "event_name" : "global_bloom",
+          "hud_icon" : "UiMenuEventCurrencyBloom",
+          "id" : "days_of_bloom",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_pastrycafe",
+          "event_name" : "global_cafe",
+          "hud_icon" : "UiMenuEventCurrencyCafe",
+          "id" : "days_of_cafe",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_color",
+          "event_name" : "global_rainbow",
+          "hud_icon" : "UiMenuEventCurrencyColor",
+          "id" : "days_of_color",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_competition",
+          "event_name" : "global_competition",
+          "hud_icon" : "UiMenuEventCurrencyCompetition",
+          "id" : "days_of_competition",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_fashion",
+          "event_name" : "global_fashion",
+          "forge_cost" : 10,
+          "hud_icon" : "UiMenuEventCurrencyFashion",
+          "id" : "days_of_fashion",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_feast",
+          "event_name" : "global_feast",
+          "hud_icon" : "UiMenuEventCurrencyFeast",
+          "id" : "days_of_feast",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_fireworks",
+          "event_name" : "global_fireworks",
+          "hud_icon" : "UiMenuEventCurrencyFireworks",
+          "id" : "days_of_fireworks",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_fortune",
+          "event_name" : "global_daysoffortune",
+          "hud_icon" : "UiMenuEventCurrencyFortune",
+          "id" : "days_of_fortune",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_love",
+          "event_name" : "global_daysoflove",
+          "hud_icon" : "UiMenuEventCurrencyLove",
+          "id" : "days_of_love",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_mischief",
+          "event_name" : "global_halloween",
+          "forge_cost" : 80,
+          "hud_icon" : "UiMenuEventCurrencyMischief",
+          "id" : "days_of_mischief",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_moonlight",
+          "event_name" : "global_moonlight",
+          "forge_cost" : 12,
+          "hud_icon" : "UiMenuEventCurrencyMoonlight",
+          "id" : "days_of_moonlight",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_music",
+          "event_name" : "global_music",
+          "hud_icon" : "UiMenuEventCurrencyMusic",
+          "id" : "days_of_music",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_nature",
+          "event_name" : "global_nature_2024",
+          "hud_icon" : "UiMenuEventCurrencyNature",
+          "id" : "days_of_nature",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_sky",
+          "event_name" : "global_skyfest",
+          "forge_cost" : 6,
+          "hud_icon" : "UiMenuEventCurrencySky",
+          "id" : "days_of_sky",
+          "name_string_key" : "currency_type_event_candle"
+       },
+       {
+          "client_currency" : "event_candle_days_of_sunlight",
+          "event_name" : "global_summer",
+          "hud_icon" : "UiMenuEventCurrencySunlight",
+          "id" : "days_of_summer",
+          "name_string_key" : "currency_type_event_candle"
+       }
+    ]
+ }
+ 

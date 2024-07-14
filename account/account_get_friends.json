@@ -1,0 +1,44 @@
+/*
+POST /account/get_friends HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 154
+
+
+*/
+//Request
+{
+    "players" : [
+       "bfdc112f-07cd-467c-80aa-ad1a2a980f95",
+       "0983c7f1-a829-495f-af4a-a7a6ef997ba1",
+       "44d58290-5729-46ef-983a-2723e0da1f9b",
+       "6fcd98ac-6f47-4394-a2df-60cf9dfe119b",
+       "ec9fa2e6-4ed0-42b9-a00e-279a7ae02a8e",
+       "13f4e92b-c39f-43a5-ae6f-f05509c43414"
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Content-Length: 21
+
+
+*/
+//Response
+{
+    "set_friends" : []
+ }
+ 

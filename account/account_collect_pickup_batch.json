@@ -1,0 +1,141 @@
+/*
+POST /account/collect_pickup_batch HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: afHCB9d
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 1649439303
+Content-Length: 385
+
+
+*/
+//Request
+{
+    "emitters" : [],
+    "global_pickup_ids" : [],
+    "level_id" : 2307461961,
+    "pickup_ids" : [
+       4283171295,
+       4283171290,
+       4283171294,
+       4283171293,
+       4283171286,
+       4283171292,
+       4283171287,
+       4283171288,
+       4283171289
+    ],
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:25:42 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 1389
+
+
+*/
+//Response
+{
+    "batch_results" : [
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171286,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171287,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171288,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171289,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171290,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 10,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171292,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171293,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 5,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171294,
+          "r" : "ok",
+          "w" : 30647
+       },
+       {
+          "cc" : 1,
+          "cid" : "",
+          "ct" : "wax",
+          "id" : 4283171295,
+          "r" : "ok",
+          "w" : 30647
+       }
+    ],
+    "currency" : {
+       "candles" : 11,
+       "wax" : 91
+    },
+    "level_id" : 2307461961,
+    "update_forge_rates" : [
+       {
+          "current_level" : 3,
+          "current_tier" : 21,
+          "enabled" : true,
+          "level_completion" : 0.1265954900795329,
+          "level_tier_count" : 5,
+          "level_tier_index" : 0,
+          "reset_acknowledged" : true,
+          "source_type" : "wax",
+          "tier_completion" : 0.6329774503976644
+       }
+    ]
+ }
+ 

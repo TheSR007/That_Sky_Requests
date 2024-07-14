@@ -1,0 +1,721 @@
+/*
+POST /account/get_shop HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: 0jdBJ3q
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:16 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 8777
+
+
+*/
+//Response
+{
+    "get_shop" : [
+       [
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_body",
+             "unlock_cost" : 0,
+             "unlock_dep" : 0,
+             "unlockid" : 3691343236,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_body",
+             "unlock_cost" : 1,
+             "unlock_dep" : 0,
+             "unlockid" : 4070169080,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_body",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 556395364,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_hair",
+             "unlock_cost" : 0,
+             "unlock_dep" : 0,
+             "unlockid" : 1229053584,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_hair",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 2802448856,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 651777506,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_hair",
+             "unlock_cost" : 1,
+             "unlock_dep" : 0,
+             "unlockid" : 310226317,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_mask",
+             "unlock_cost" : 0,
+             "unlock_dep" : 0,
+             "unlockid" : 3663390882,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_mask",
+             "unlock_cost" : 1,
+             "unlock_dep" : 0,
+             "unlockid" : 1600525874,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_mask",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 3207378178,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_wing",
+             "unlock_cost" : 0,
+             "unlock_dep" : 0,
+             "unlockid" : 2245279351,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dayhub_wing",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 4290017146,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_gyard_hair_1",
+             "unlock_cost" : 6,
+             "unlock_dep" : 0,
+             "unlockid" : 2666640712,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_gyard_hair_1",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 351601302,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_gyard_hair_2",
+             "unlock_cost" : 10,
+             "unlock_dep" : 0,
+             "unlockid" : 1960678833,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_gyard_wing",
+             "unlock_cost" : 20,
+             "unlock_dep" : 0,
+             "unlockid" : 3466800656,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_hair",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 1472657881,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_hair",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 3668577427,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_mask",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 3659135953,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "dusk_wing",
+             "unlock_cost" : 7,
+             "unlock_dep" : 0,
+             "unlockid" : 1676224199,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "duskend_hair",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 4055513070,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 1064146256,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 6,
+             "unlock_dep" : 0,
+             "unlockid" : 2003040587,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 18,
+             "unlock_dep" : 0,
+             "unlockid" : 3280753494,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 0,
+             "unlock_dep" : 0,
+             "unlockid" : 2035109393,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 11,
+             "unlock_dep" : 0,
+             "unlockid" : 1889256860,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 27,
+             "unlock_dep" : 0,
+             "unlockid" : 992885953,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "home_prop",
+             "unlock_cost" : 1,
+             "unlock_dep" : 0,
+             "unlockid" : 1021011859,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "night_body",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 4086661700,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "night_hair",
+             "unlock_cost" : 5,
+             "unlock_dep" : 0,
+             "unlockid" : 158418233,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "night_hair",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 392918653,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "night_mask",
+             "unlock_cost" : 5,
+             "unlock_dep" : 0,
+             "unlockid" : 1929978494,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "night_wing",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 1611389272,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "nightend_hair",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 1740771042,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "nightend_mask",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 4267756678,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "nightend_wing",
+             "unlock_cost" : 10,
+             "unlock_dep" : 0,
+             "unlockid" : 4009091214,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitdawn_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 416680174,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitday_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 2432602294,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitdusk_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 2681369749,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitnight_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 3721236258,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitrain_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 1078517906,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitsunset_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 777821397,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "orbitsunset_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 3381405437,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rain_body",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 739857211,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rain_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 2784461785,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rain_hair",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 21382025,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rain_hair",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 189805609,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rain_mask",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 252652358,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rainend_body",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 2432891829,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rainend_hair",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 766797080,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rainend_mask",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 2954671753,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "rainend_wing",
+             "unlock_cost" : 6,
+             "unlock_dep" : 0,
+             "unlockid" : 3167707894,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_body",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 4145832489,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_hair",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 3075031305,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_hair",
+             "unlock_cost" : 2,
+             "unlock_dep" : 0,
+             "unlockid" : 1091766677,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_hair",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 3437606455,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_mask",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 3117037165,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_mask",
+             "unlock_cost" : 3,
+             "unlock_dep" : 0,
+             "unlockid" : 3066704308,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunset_wing",
+             "unlock_cost" : 5,
+             "unlock_dep" : 0,
+             "unlockid" : 2038455273,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunsetend_body",
+             "unlock_cost" : 4,
+             "unlock_dep" : 0,
+             "unlockid" : 971855908,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunsetend_hair",
+             "unlock_cost" : 8,
+             "unlock_dep" : 0,
+             "unlockid" : 1966947567,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          },
+          {
+             "currency_type" : "heart",
+             "listed" : true,
+             "name" : "sunsetend_mask",
+             "unlock_cost" : 6,
+             "unlock_dep" : 0,
+             "unlockid" : 685288461,
+             "visual_dep" : 0,
+             "x" : 0,
+             "y" : 0
+          }
+       ]
+    ]
+ }
+ 

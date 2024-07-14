@@ -1,0 +1,845 @@
+/*
+POST /account/commerce/product_info HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (MS-7D25; win 10.0.19045; en)
+X-Session-ID: 34fcfe6b-b8c8-ae17-af8c-d8bbc1910e73
+Content-Type: application/json
+trace-id: PZRQvJM
+user-id: 28696b5b-3fd0-4b47-bfe0-bdfab9328214
+session: c96c4ac19fd8ead1e884e4a852a7e933
+x-sky-level-id: 3526133726
+Content-Length: 660
+
+
+*/
+//Request
+{
+    "order" : "76561199698282316|en|140000002f8193240970dd484c07986701001001119b9166180000000100000005000000a04b5443044b11d0a5981f0003000000b200000032000000040000004c079867010010012a7b230054c8931b0138a8c000000000129b9166924aad66010096be0c000000000004a4fc0d90832fff0d6ebe416afeeda1e3956b5ddc38ef9c6735bc9e9aa9282657f07f9048643ac4c3737cd6d1bce3f0b1cfcb0654fe67e490107b5277d79d317b137f05b3f2cf9469b374b203b7523b1d2c0cbbfb48081dc4ef632457a26a6015d1bd0d0af34972d4675818eb458eb4861dea69076208352907f70877f729de",
+    "platform" : "steam",
+    "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
+    "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",
+    "user_id" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+ } 
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Fri, 12 Jul 2024 21:16:15 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 10290
+
+
+*/
+//Response
+{
+    "product_info" : [
+       {
+          "c" : "BD",
+          "d" : "Base season pass",
+          "i" : "SPASSR",
+          "n" : "Season Pass Regular",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Season pass with bonuses.",
+          "i" : "SPASSP3",
+          "n" : "Season Pass Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Purchase Gift Season Pass for your friends",
+          "i" : "SPASSG",
+          "n" : "Gift Season Pass",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "15 Season Candles to unlock seasonal items!",
+          "i" : "SCDL5",
+          "n" : "Season Candles",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Fur cape, mask, and 2 music sheets",
+          "i" : "SNC07",
+          "n" : "Gratitude Fur Cape Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC97",
+          "n" : "Mischief Crabula Mask",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC98",
+          "n" : "Mischief Crabula Cloak",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC96",
+          "n" : "Mischief Gossamer Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC36",
+          "n" : "Mischief Withered Antlers",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC37",
+          "n" : "Mischief Witch Jumper",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC38",
+          "n" : "Mischief Spider Quiff",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC39",
+          "n" : "Mischief Pumpkin Prop",
+          "p" : 199
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC14",
+          "n" : "Mischief Witch Hat",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday",
+          "i" : "SNC15",
+          "n" : "Mischief Web Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Limited time offer to celebrate Halloween!",
+          "i" : "SNC06",
+          "n" : "Hungry Pumpkin Hat",
+          "p" : 1199
+       },
+       {
+          "c" : "BD",
+          "d" : "Limited time offer to celebrate Halloween!",
+          "i" : "SNC05",
+          "n" : "Spooky Bat Cape",
+          "p" : 1799
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC99",
+          "n" : "Moth Appreciation Pack",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC100",
+          "n" : "Sparrow Appreciation Pack",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC101",
+          "n" : "Cozy Hermit Boots",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC102",
+          "n" : "Winter Quilted Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC17",
+          "n" : "Days of Feast Horns",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate the holiday!",
+          "i" : "SNC18",
+          "n" : "Snowflake Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "25 Candles with bonus Feast Hat",
+          "i" : "SNC03",
+          "n" : "Days of Feast Pack",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC40",
+          "n" : "Winter Feast Snowglobe",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC41",
+          "n" : "Winter Ancestor Cape",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC42",
+          "n" : "Snowflake Hair Accessory",
+          "p" : 199
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC73",
+          "n" : "Tournament Skyball Set",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC76",
+          "n" : "Cozy Hermit Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC103",
+          "n" : "Days of Fortune Dragon Vestment",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC104",
+          "n" : "Days of Fortune Dragon Stole",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC105",
+          "n" : "Days of Fortune Dragon Bangles",
+          "p" : 199
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC19",
+          "n" : "Days of Fortune Orange",
+          "p" : 99
+       },
+       {
+          "c" : "BD",
+          "d" : "Special pack to celebrate this holiday!",
+          "i" : "SNC21",
+          "n" : "Days of Fortune Pack",
+          "p" : 2499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC20",
+          "n" : "Days of Fortune Wool Hat",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC43",
+          "n" : "Days of Fortune Fish Accessory",
+          "p" : 199
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC44",
+          "n" : "Days of Fortune Fish Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC74",
+          "n" : "Fortune Enchanted Umbrella",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC75",
+          "n" : "Fortune Muralist's Smock",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC106",
+          "n" : "Days of Love Meteor Mantle",
+          "p" : 1799
+       },
+       {
+          "c" : "BD",
+          "d" : "Special pack to celebrate this holiday!",
+          "i" : "SNC22",
+          "n" : "Days of Love Seesaw Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Swing set and Gift Season Pass",
+          "i" : "SNC08",
+          "n" : "Days of Love Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC45",
+          "n" : "Days of Love Gondola Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC77",
+          "n" : "Love Serendipitous Scepter",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC79",
+          "n" : "Days of Love Classy Cravat",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC12",
+          "n" : "Kizuna AI Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC109",
+          "n" : "Bloom Lilypad Umbrella",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC23",
+          "n" : "Bloom Teaset",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC46",
+          "n" : "Purple Bloom Teaset",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC80",
+          "n" : "Bloom Picnic Basket",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC81",
+          "n" : "Bloom Gardening Tunic",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC112",
+          "n" : "Cinnamoroll Pop-Up Cafe Combo",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC113",
+          "n" : "Cinnamoroll Pop-Up Cafe Plushie",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC114",
+          "n" : "Cinnamoroll Pop-Up Cafe Mini Companion",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC115",
+          "n" : "Cinnamoroll Pop-Up Cafe Bowtie and Cloud Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC110",
+          "n" : "Nature Wave Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC111",
+          "n" : "Nature Wave-Touched Hair",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC82",
+          "n" : "Nature Glasses Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC83",
+          "n" : "Nature Sonorous Seashell",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC47",
+          "n" : "Nature Turtle Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC48",
+          "n" : "Nature Turtle Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC24",
+          "n" : "Ocean Necklace",
+          "p" : 199
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC25",
+          "n" : "Ocean Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Charity cape for Earth Day",
+          "i" : "SNC09",
+          "n" : "Earth Cape",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC86",
+          "n" : "Triumph Violin",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC57",
+          "n" : "Fledgling Harp",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC56",
+          "n" : "Rhythm Guitar",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC51",
+          "n" : "Triumph Handpan",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC116",
+          "n" : "Dark Rainbow Loafers",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC117",
+          "n" : "Color Bubble Machine",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special pack to celebrate this holiday!",
+          "i" : "SNC27",
+          "n" : "Rainbow Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special item to celebrate this holiday!",
+          "i" : "SNC28",
+          "n" : "Rainbow Hat",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC49",
+          "n" : "Rainbow Earring",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC55",
+          "n" : "Double Rainbow Pack",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC58",
+          "n" : "Rainbow Headphones",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC84",
+          "n" : "Dark Rainbow Pack",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC85",
+          "n" : "Dark Rainbow Tunic",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC119",
+          "n" : "SkyFest Wireframe Cape",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC118",
+          "n" : "SkyFest Oreo Headband",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC87",
+          "n" : "Anniversary Plush",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC120",
+          "n" : "Tournament Tunic",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC121",
+          "n" : "Tournament Golden Garland",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC89",
+          "n" : "Sunlight Surfboard",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC90",
+          "n" : "Sunlight Chunky Sandals",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC59",
+          "n" : "Sunlight Campfire Snack Kit",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC60",
+          "n" : "Sunlight Jelly Shoulder Buddy",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC34",
+          "n" : "Summer Seashell Hairpin",
+          "p" : 99
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC35",
+          "n" : "Summer Bunny Accessory",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC13",
+          "n" : "Lantern Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC33",
+          "n" : "Summer Parasol",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC91",
+          "n" : "Style Wide-Leg Jeans",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC92",
+          "n" : "Style Flame Sunglasses",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC93",
+          "n" : "Style Heart Sunglasses",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC95",
+          "n" : "Style Bunny Slippers",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC70",
+          "n" : "Journey Pack",
+          "p" : 2499
+       },
+       {
+          "c" : "BD",
+          "d" : "A one of a kind cape.",
+          "i" : "SNC29",
+          "n" : "Little Prince Scarf Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "A companion on your back and a decoration",
+          "i" : "SNC30",
+          "n" : "Little Prince Fox",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "A magical cape.",
+          "i" : "SNC32",
+          "n" : "Little Prince Asteroid Jacket",
+          "p" : 2499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC88",
+          "n" : "Musical Voyage Sneakers",
+          "p" : 699
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC63",
+          "n" : "Tiara We Can Touch",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC64",
+          "n" : "Runaway Hair",
+          "p" : 299
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC65",
+          "n" : "Voice of AURORA",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC69",
+          "n" : "Runaway Outfit",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC66",
+          "n" : "To The Love Outfit",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC67",
+          "n" : "Giving In Cape",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC68",
+          "n" : "Wings of AURORA",
+          "p" : 2499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC107",
+          "n" : "Gift of the Nine-Colored Deer",
+          "p" : 1499
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC108",
+          "n" : "Radiance of the Nine-Colored Deer",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Welcome to Sky! A pack to get you started.",
+          "i" : "SNC00",
+          "n" : "Starter Pack",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "15 Candles to give to your friends!",
+          "i" : "CDL5",
+          "n" : "Regular Candles",
+          "p" : 499
+       },
+       {
+          "c" : "BD",
+          "d" : "35 Candles (30 + 5 bonus!) to give to your friends.",
+          "i" : "CDL10",
+          "n" : "Regular Candles",
+          "p" : 999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special pack for global relief efforts",
+          "i" : "SNC10",
+          "n" : "Healing Pack",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "72 Candles (60 + 12 bonus!) to give to your friends.",
+          "i" : "CDL20",
+          "n" : "Regular Candles",
+          "p" : 1999
+       },
+       {
+          "c" : "BD",
+          "d" : "Be a founder and support thatgamecompany!",
+          "i" : "SNC01",
+          "n" : "Founder's Pack",
+          "p" : 2999
+       },
+       {
+          "c" : "BD",
+          "d" : "Special event item",
+          "i" : "SNC54",
+          "n" : "TGC Guitar Pack",
+          "p" : 2999
+       },
+       {
+          "c" : "BD",
+          "d" : "190 Candles (150 + 40 bonus!) to give to your friends.",
+          "i" : "CDL50",
+          "n" : "Regular Candles",
+          "p" : 4999
+       }
+    ],
+    "result" : "ok"
+ }
+ 
