@@ -1,0 +1,459 @@
+/*
+POST /account/give_candle HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: Ws4ptE6
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 8f20ecfccd6bc8741cb09b597b3a1438
+
+x-sky-level-id: 3526133726
+
+Content-Length: 260
+
+
+
+
+*/
+//Request
+{
+   "ability_cost" : 1,
+   "ability_id" : 1,
+   "level_id" : 3526133726,
+   "pos" : [ 0, 1, 0 ],
+   "recv_user" : "21613cee-2393-4833-8c84-266debe6c4b0",
+   "session" : "8f20ecfccd6bc8741cb09b597b3a1438",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 15:03:44 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 7395
+
+
+
+
+*/
+//Response
+
+{
+   "currency" : {
+      "candles" : 349,
+      "event_candle_days_of_sky" : 14,
+      "heart" : 74,
+      "heart_wax" : 200,
+      "prestige" : 1978,
+      "prestige_vip" : 3381,
+      "prestige_wax" : 2,
+      "season_candle" : 13,
+      "season_candle_22" : 19,
+      "season_wax" : 0,
+      "season_wax_22" : 6,
+      "vip" : 3017,
+      "wax" : 42
+   },
+   "res" : "ok",
+   "result" : true,
+   "set_friend_count" : 96,
+   "set_sent_messages" : [
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13169326930,
+         "msg_id" : 13169326930,
+         "recvd" : false,
+         "to_id" : "0006807c-aa9e-40d9-a45d-1ed510ee23ac",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13171038195,
+         "msg_id" : 13171038195,
+         "recvd" : false,
+         "to_id" : "011b9605-478d-460b-9ee6-131f94d05f4c",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13143083005,
+         "msg_id" : 13143083005,
+         "recvd" : false,
+         "to_id" : "016150f2-5c88-49fa-bc03-2c7c7c899987",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13186491580,
+         "msg_id" : 13186491580,
+         "recvd" : false,
+         "to_id" : "07212839-99ad-49e8-a86f-46a298284b49",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909278,
+         "msg_id" : 13215909278,
+         "recvd" : false,
+         "to_id" : "1603247a-d1c8-4ef9-9389-5b995ba29fd1",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909406,
+         "msg_id" : 13215909406,
+         "recvd" : false,
+         "to_id" : "17290315-5abc-4a7e-9aa2-19d7b730c13b",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13169326431,
+         "msg_id" : 13169326431,
+         "recvd" : false,
+         "to_id" : "1da6bd32-f5b9-4874-aec9-c703dddc6e18",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13169326687,
+         "msg_id" : 13169326687,
+         "recvd" : false,
+         "to_id" : "1ea038c8-b660-4649-8974-0b47e87cf704",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13204297778,
+         "msg_id" : 13204297778,
+         "recvd" : false,
+         "to_id" : "3349945a-8d17-4bd4-a19a-e4785deb8099",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909778,
+         "msg_id" : 13215909778,
+         "recvd" : false,
+         "to_id" : "39141cf6-a74a-4d16-bda7-b6ff44abd7fa",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13192222079,
+         "msg_id" : 13192222079,
+         "recvd" : false,
+         "to_id" : "3abb84c4-b103-481e-9f98-a798099cf429",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13208824357,
+         "msg_id" : 13208824357,
+         "recvd" : true,
+         "to_id" : "3f5a361e-7f1a-45b9-a2bd-bb8afea25427",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909553,
+         "msg_id" : 13215909553,
+         "recvd" : false,
+         "to_id" : "5501e6ab-db12-432c-a708-6b75eeee6440",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13129288570,
+         "msg_id" : 13129288570,
+         "recvd" : false,
+         "to_id" : "59455bc9-d8d4-48f2-b5ac-05bf49efa739",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13202299910,
+         "msg_id" : 13202299910,
+         "recvd" : false,
+         "to_id" : "6cc3e88b-8eb3-4520-ae99-78db825836fc",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13169327362,
+         "msg_id" : 13169327362,
+         "recvd" : false,
+         "to_id" : "6e3dbbc2-0726-4a71-8b49-f463f3ed7cbb",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13163692078,
+         "msg_id" : 13163692078,
+         "recvd" : false,
+         "to_id" : "6ff6d59c-3b0c-4be1-a669-f4c4493864ab",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13208156022,
+         "msg_id" : 13208156022,
+         "recvd" : false,
+         "to_id" : "746d6f42-c8ec-4a55-b635-5de0752ca903",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13168161612,
+         "msg_id" : 13168161612,
+         "recvd" : false,
+         "to_id" : "772e2e6a-d7b7-4cc5-8b9d-6ff71bca2b60",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13161991488,
+         "msg_id" : 13161991488,
+         "recvd" : false,
+         "to_id" : "8fdfeb6f-8f2f-45ca-84ba-1c16b649efc5",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13192223910,
+         "msg_id" : 13192223910,
+         "recvd" : false,
+         "to_id" : "928a0226-76ed-43ad-ab0a-ac0fa88eff8a",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13140041101,
+         "msg_id" : 13140041101,
+         "recvd" : false,
+         "to_id" : "92964320-af65-404b-888d-e3bb1d93e79e",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13155831742,
+         "msg_id" : 13155831742,
+         "recvd" : false,
+         "to_id" : "95088b00-7690-4a48-8d23-60a837c70685",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13206354272,
+         "msg_id" : 13206354272,
+         "recvd" : false,
+         "to_id" : "9af48dd9-c004-47f8-910d-ce338684bef9",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13178250842,
+         "msg_id" : 13178250842,
+         "recvd" : false,
+         "to_id" : "9f0fe28f-c533-4bd9-a17c-2711142d90a2",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13206356003,
+         "msg_id" : 13206356003,
+         "recvd" : false,
+         "to_id" : "a4fc4d02-444a-46ab-89fc-b49d3d66ba27",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13141194078,
+         "msg_id" : 13141194078,
+         "recvd" : false,
+         "to_id" : "a6fd22ee-1633-4984-bd3f-da904da01a6d",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13160607074,
+         "msg_id" : 13160607074,
+         "recvd" : false,
+         "to_id" : "aa1723a1-1c30-4004-a919-054df60275cb",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13140041330,
+         "msg_id" : 13140041330,
+         "recvd" : false,
+         "to_id" : "b6945053-552c-48f1-9e8f-e7069d14a1fd",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909892,
+         "msg_id" : 13215909892,
+         "recvd" : false,
+         "to_id" : "bb6d90c1-136a-43fc-83a6-186f9b83a90e",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13208822602,
+         "msg_id" : 13208822602,
+         "recvd" : false,
+         "to_id" : "c0580da5-90a4-42fb-a794-60b875a9ee5c",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13186492898,
+         "msg_id" : 13186492898,
+         "recvd" : false,
+         "to_id" : "c4a1fb26-dad6-4c9e-879a-3ed364efb78e",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13167215908,
+         "msg_id" : 13167215908,
+         "recvd" : false,
+         "to_id" : "cdc2481a-1401-40e8-9653-512227dfd307",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13215909060,
+         "msg_id" : 13215909060,
+         "recvd" : false,
+         "to_id" : "d1ca2082-0513-4505-8a73-cc6eb6729df0",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13167215743,
+         "msg_id" : 13167215743,
+         "recvd" : false,
+         "to_id" : "d2b854a0-dfd2-4083-a28f-425c080f0450",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13206354691,
+         "msg_id" : 13206354691,
+         "recvd" : false,
+         "to_id" : "d2df1713-d68b-4130-bc1b-c0928b59bd18",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13186493768,
+         "msg_id" : 13186493768,
+         "recvd" : false,
+         "to_id" : "d467e821-8308-44d0-bd40-61617ca7e56f",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13169327099,
+         "msg_id" : 13169327099,
+         "recvd" : false,
+         "to_id" : "ea609d1c-04b5-43d3-a082-04feed530e15",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13200573748,
+         "msg_id" : 13200573748,
+         "recvd" : false,
+         "to_id" : "f3341885-3b78-44fb-bfd4-88cc4c1359a5",
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 0,
+         "currency_type" : "",
+         "gift_id" : 13213095801,
+         "msg_id" : 13213095801,
+         "recvd" : true,
+         "to_id" : "fc7603c7-c4c6-49a4-bbd5-03b9a1e54e7d",
+         "type" : "gift_heart_wax"
+      }
+   ],
+   "update_friends" : [
+      {
+         "abilities" : [ 1, 2, 9, 10, 19 ],
+         "friend_id" : "21613cee-2393-4833-8c84-266debe6c4b0",
+         "given" : 1,
+         "hints" : [ 1, 2, 9, 10, 19 ],
+         "last_seen_outfit" : null,
+         "level" : 1,
+         "recvd" : 0,
+         "soft_deleted" : null,
+         "they_soft_deleted" : null,
+         "unlinked_star_sku" : "",
+         "when_created" : "2024-07-16T15:03:44.803Z"
+      }
+   ],
+   "update_online_friends" : [
+      {
+         "friend_id" : "21613cee-2393-4833-8c84-266debe6c4b0",
+         "level_id" : 0
+      }
+   ]
+}

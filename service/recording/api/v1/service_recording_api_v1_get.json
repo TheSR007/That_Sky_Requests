@@ -1,0 +1,194 @@
+/*
+POST /service/recording/api/v1/get HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: JcRYCql
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 8f20ecfccd6bc8741cb09b597b3a1438
+
+x-sky-level-id: 1509719447
+
+Content-Length: 256
+
+
+
+
+*/
+//Request
+{
+   "level_id" : "MainStreet",
+   "recording_id" : "66963344550e1e2d657b2a1a",
+   "session" : "8f20ecfccd6bc8741cb09b597b3a1438",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "746969a9-0cde-4369-9198-2085a889bbc0"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 15:14:04 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 974
+
+
+
+
+*/
+//Response
+
+{
+   "level_id" : "MainStreet",
+   "recording_data" : {
+      "chln" : 4,
+      "plyr" : [
+         {
+            "chat" : [
+               [ 3, 2.080, "thank you for the gifts" ]
+            ],
+            "ofts" : [
+               [
+                  2337034871350,
+                  1.630,
+                  -0.060,
+                  9,
+                  1840544846,
+                  769730861,
+                  185578776,
+                  4267756678,
+                  2513756879,
+                  1532093990,
+                  3680499229,
+                  2013620199,
+                  232888027
+               ]
+            ],
+            "phdr" : {
+               "e" : 11,
+               "ec" : 11,
+               "ecm" : 1,
+               "in" : 0,
+               "iss" : false,
+               "it" : 255,
+               "twbc" : 191,
+               "wbc" : 167
+            },
+            "shts" : [
+               [ 3, 2.080, 0.10 ]
+            ],
+            "sts" : [
+               [
+                  262167,
+                  "73.03,217.53,-115.34",
+                  "-2.36,-0,0",
+                  "-2.36,-0,0",
+                  "0,0,1",
+                  true
+               ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ],
+               [ 0 ]
+            ]
+         }
+      ],
+      "stfs" : [
+         "ps",
+         "or",
+         "tor",
+         "v",
+         "hd",
+         "rv",
+         "fv",
+         "fp",
+         "gl",
+         "rs",
+         "glo",
+         "crp",
+         "rnp",
+         "sfp",
+         "post",
+         "co",
+         "cs",
+         "pa",
+         "pst",
+         "pest",
+         "fop",
+         "fl",
+         "fr",
+         "ta",
+         "bid0",
+         "bid1",
+         "bid2",
+         "bc",
+         "mel",
+         "gmi",
+         "gmsi",
+         "igk",
+         "ig",
+         "isf",
+         "it"
+      ],
+      "stid" : "00000000-0000-0000-0000-000000000000",
+      "ver" : 1
+   },
+   "recording_id" : "66963344550e1e2d657b2a1a",
+   "status" : "OK",
+   "user_id" : "746969a9-0cde-4369-9198-2085a889bbc0"
+}

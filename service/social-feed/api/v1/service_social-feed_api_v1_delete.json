@@ -1,0 +1,56 @@
+/*
+POST /service/social-feed/api/v1/delete HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: EQ1zKlq
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 203c66f7573b4b8bae9688e0664a3e9d
+
+x-sky-level-id: 3905084854
+
+Content-Length: 248
+
+
+
+
+*/
+//Request
+{
+   "author_id" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "session" : "203c66f7573b4b8bae9688e0664a3e9d",
+   "social_feed_id" : "02522296-bae5-4673-b785-ffaa1ee0a22e",
+   "user" : "8511f751-0625-4579-9d7e-e6500000",
+   "user_id" : "8511f751-0625-4579-9d7e-e6500000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Wed, 17 Jul 2024 02:38:43 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 16
+
+
+
+
+*/
+//Response
+
+{
+   "result" : "ok"
+}

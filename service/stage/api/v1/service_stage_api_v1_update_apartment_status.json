@@ -1,0 +1,56 @@
+/*
+POST /service/stage/api/v1/update_apartment_status HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: d5Z30cU
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 019fa92854fc2b6796467f23ee7c1af7
+
+x-sky-level-id: 3905084854
+
+Content-Length: 214
+
+
+
+
+*/
+//Request
+{
+   "owner_id" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "session" : "019fa92854fc2b6796467f23ee7c1af7",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "welcome_level" : "solo"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Wed, 17 Jul 2024 01:43:27 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 21
+
+
+
+
+*/
+//Response
+
+{
+   "result" : "success"
+}

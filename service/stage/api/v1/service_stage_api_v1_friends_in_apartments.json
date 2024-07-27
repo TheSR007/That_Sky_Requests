@@ -1,0 +1,59 @@
+/*
+POST /service/stage/api/v1/friends_in_apartments HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: jdxJMwo
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 203c66f7573b4b8bae9688e0664a3e9d
+
+x-sky-level-id: 3905084854
+
+Content-Length: 141
+
+
+
+
+*/
+//Request
+{
+   "session" : "203c66f7573b4b8bae9688e0664a3e9d",
+   "user" : "8511f751-0625-4579-9d7e-e6500000",
+   "user_id" : "8511f751-0625-4579-9d7e-e6500000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Wed, 17 Jul 2024 02:39:11 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 87
+
+
+
+
+*/
+//Response
+
+{
+   "friends" : [
+      {
+         "friend_id" : "1603247a-d1c8-4ef9-9389-5b995ba0",
+         "nickname" : "floopy"
+      }
+   ]
+}

@@ -1,0 +1,36 @@
+/*
+POST /service/social-feed/api/v1/like HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (To Be Filled By O.E.M.; win 10.0.22621; en)
+X-Session-ID: 6f59a1a8-2d8d-0000-0000-000000000000
+Content-Type: application/json
+trace-id: F1YgXD3
+user-id: 274e5084-b383-4636-b183-7d02fc00000e
+session: 043dad41c01a8ae21635b1195a7e1a2d
+x-sky-level-id: 3526133726
+Content-Length: 261
+
+*/
+//Request
+{
+   "author_id" : "8598aeea-c850-4511-b6b3-b7648432d4d3",
+   "liked" : true,
+   "session" : "043dad41c01a8ae21635b1195a7e1a2d",
+   "social_feed_id" : "8cdba6d1-250e-415f-9cf0-b861aec229fe",
+   "user" : "274e5084-b383-4636-b183-7d02fc00000e",
+   "user_id" : "274e5084-b383-4636-b183-7d02fc00000e"
+}
+
+
+/*
+HTTP/1.1 202 Accepted
+Server: nginx/1.14.2
+Date: Mon, 15 Jul 2024 15:54:24 GMT
+Content-Type: text/plain; charset=utf-8
+Connection: keep-alive
+Content-Length: 21
+
+*/
+//Response
+
+{"result":"created"}

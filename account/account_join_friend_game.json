@@ -1,0 +1,74 @@
+/*
+POST /account/join_friend_game HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: hKGUcNa
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 490de505cfe155c4ea0b3dad2e721b0c
+
+x-sky-level-id: 3526133726
+
+Content-Length: 192
+
+
+
+
+*/
+//Request
+{
+   "friend_id" : "86fe515c-3d57-43be-bf8b-7127026a8a34",
+   "session" : "490de505cfe155c4ea0b3dad2e721b0c",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 16:36:25 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 545
+
+
+
+
+*/
+//Response
+
+{
+   "is_dnd" : false,
+   "is_joinable" : true,
+   "move_to_game" : {
+      "client_changelist" : "275000",
+      "client_version" : 5019,
+      "event_id" : 4294967295,
+      "level" : 3526133726,
+      "level_hash" : 32977,
+      "move_ts" : 1721147785200,
+      "platform_filter" : 0,
+      "players" : [ "86fe515c-3d57-43be-bf8b-7127026a8a34" ],
+      "port" : 41218,
+      "private_ip" : "172.31.45.138",
+      "ps_only" : false,
+      "public_ip" : "35.85.56.99",
+      "sig" : "d5dadceddcc23de486c410c6f20188ddead74a4f9ca316b990b36984ab6d09dd",
+      "signature" : "8febdbd5013abb4a9b1355814251c10e3ae37bc802c569bf1a92fd6049898031",
+      "target_id" : "86fe515c-3d57-43be-bf8b-7127026a8a34"
+   }
+}

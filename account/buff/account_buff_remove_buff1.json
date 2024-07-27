@@ -1,0 +1,58 @@
+/*
+POST /account/buff/remove_buff1 HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: DFTAd4z
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 490de505cfe155c4ea0b3dad2e721b0c
+
+x-sky-level-id: 295816905
+
+Content-Length: 209
+
+
+
+
+*/
+//Request
+{
+   "buff_id" : 1692428656,
+   "giver" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "session" : "490de505cfe155c4ea0b3dad2e721b0c",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 16:44:55 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 124
+
+
+
+
+*/
+//Response
+
+{
+   "get_buffs" : [],
+   "get_buffs_sign" : "cb2d63dbdf511a1eecc53b23be80cd96f3f178e9c4b34da2c99a7d43580d0f80",
+   "remove_buff" : "success"
+}

@@ -1,0 +1,80 @@
+/*
+POST /account/send_message HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: X7jhhr7
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 5cff0d0475b2fb9fc3e162371394a6f7
+
+x-sky-level-id: 3526133726
+
+Content-Length: 208
+
+
+
+
+*/
+//Request
+{
+   "gift_type" : "gift",
+   "session" : "5cff0d0475b2fb9fc3e162371394a6f7",
+   "target" : "b94a3499-dcc4-47d8-8bea-59f983cbe14b",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a0",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a0"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 17:42:33 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 424
+
+
+
+
+*/
+//Response
+
+{
+   "currency" : {
+      "candles" : 233,
+      "event_candle_days_of_sky" : 2,
+      "heart" : 14,
+      "heart_wax" : 50,
+      "prestige" : 1910,
+      "prestige_vip" : 3381,
+      "prestige_wax" : 2,
+      "season_candle" : 14,
+      "season_candle_22" : 19,
+      "season_wax" : 0,
+      "season_wax_22" : 6,
+      "vip" : 3050,
+      "wax" : 17
+   },
+   "result" : "ok",
+   "sent_message" : {
+      "currency_count" : 3,
+      "currency_type" : "candles",
+      "gift_id" : 13216451102,
+      "msg_id" : 13216451102,
+      "recvd" : false,
+      "to_id" : "b94a3499-dcc4-47d8-8bea-59f983cbe14b",
+      "type" : "gift"
+   }
+}

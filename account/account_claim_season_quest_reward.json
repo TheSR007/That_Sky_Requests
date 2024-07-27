@@ -1,0 +1,74 @@
+/*
+POST /account/claim_season_quest_reward HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (To Be Filled By O.E.M.; win 10.0.22621; en)
+X-Session-ID: 6f59a1a8-2d8d-0000-0000-000000000000
+Content-Type: application/json
+trace-id: SpIlsQT
+user-id: bc81298c-cd1f-4ade-bac0-e7af8700000
+session: 70189d87af72a869f02d7ff14687fa46
+x-sky-level-id: 1509719447
+Content-Length: 190
+
+*/
+//Request
+{
+   "in_season" : 1,
+   "quest_id" : "save_a_spirit_in_dusk",
+   "session" : "70189d87af72a869f02d7ff14687fa46",
+   "user" : "bc81298c-cd1f-4ade-bac0-e7af8710000",
+   "user_id" : "bc81298c-cd1f-4ade-bac0-e7af8710000"
+}
+
+
+/*
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Mon, 15 Jul 2024 18:23:21 GMT
+Content-Type: application/json
+Connection: keep-alive
+Content-Length: 608
+
+*/
+//Response
+
+{
+   "currency" : {
+      "candles" : 149,
+      "event_candle_days_of_sky" : 4,
+      "heart" : 74,
+      "heart_wax" : 250,
+      "prestige" : 126,
+      "prestige_vip" : 1515,
+      "prestige_wax" : 1,
+      "season_candle" : 6,
+      "season_candle_22" : 143,
+      "season_wax" : 0,
+      "season_wax_22" : 3,
+      "vip" : 2452,
+      "wax" : 48
+   },
+   "has_season_quests_rewards" : [
+      {
+         "daily_quest_def_id" : "shoute_at_5_crabs",
+         "date" : "2024-07-15",
+         "rewarded" : true
+      },
+      {
+         "daily_quest_def_id" : "send_a_gift",
+         "date" : "2024-07-15",
+         "rewarded" : true
+      },
+      {
+         "daily_quest_def_id" : "visit_rainbow_dusk",
+         "date" : "2024-07-15",
+         "rewarded" : true
+      },
+      {
+         "daily_quest_def_id" : "save_a_spirit_in_dusk",
+         "date" : "2024-07-15",
+         "rewarded" : true
+      }
+   ],
+   "season_quest_claim_result" : "ok"
+}

@@ -1,0 +1,61 @@
+/*
+POST /account/join_previous_game HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: yREl9
+
+user-id: 86fe515c-3d57-43be-bf8b-7127026a8a34
+
+session: 9b272cae84f63ea98cf20a9437598738
+
+x-sky-level-id: 3526133726
+
+Content-Length: 315
+
+
+
+
+*/
+//Request
+{
+   "client_version" : 5019,
+   "quick_rejoin_players" : [],
+   "recent_level_hash" : 34509,
+   "recent_net_flags" : 0,
+   "recent_players" : [ "ef78c4d3-f68f-4d10-9b66-c35100a0" ],
+   "server_version" : 377,
+   "session" : "9b272cae84f63ea98cf20a9437598738",
+   "user" : "86fe515c-3d57-43be-bf8b-712700000",
+   "user_id" : "86fe515c-3d57-43be-bf8b-712700000"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 23:47:12 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 22
+
+
+
+
+*/
+//Response
+
+{
+   "result" : "not_found"
+}

@@ -1,0 +1,56 @@
+/*
+POST /service/relationship/api/v1/delete_follow HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: sU86T8E
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 5cff0d0475b2fb9fc3e162371394a6f7
+
+x-sky-level-id: 3526133726
+
+Content-Length: 190
+
+
+
+
+*/
+//Request
+{
+   "creator" : "2b0cf336-2ba4-4357-ae28-af73d8a35c9a",
+   "session" : "5cff0d0475b2fb9fc3e162371394a6f7",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a0",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a0"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 17:43:37 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 21
+
+
+
+
+*/
+//Response
+
+{
+   "number_deleted" : 1
+}

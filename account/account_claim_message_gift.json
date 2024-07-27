@@ -1,0 +1,201 @@
+/*
+POST /account/claim_message_gift HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: zv3Taoj
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 490de505cfe155c4ea0b3dad2e721b0c
+
+x-sky-level-id: 3526133726
+
+Content-Length: 162
+
+
+
+
+*/
+//Request
+{
+   "msg_id" : 13215816460,
+   "session" : "490de505cfe155c4ea0b3dad2e721b0c",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 16:33:42 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 2970
+
+
+
+
+*/
+//Response
+
+{
+   "currency" : {
+      "candles" : 245,
+      "event_candle_days_of_sky" : 17,
+      "heart" : 18,
+      "heart_wax" : 255,
+      "prestige" : 1969,
+      "prestige_vip" : 3381,
+      "prestige_wax" : 2,
+      "season_candle" : 14,
+      "season_candle_22" : 19,
+      "season_wax" : 0,
+      "season_wax_22" : 6,
+      "vip" : 3029,
+      "wax" : 42
+   },
+   "get_buffs" : [],
+   "get_buffs_sign" : "cb2d63dbdf511a1eecc53b23be80cd96f3f178e9c4b34da2c99a7d43580d0f80",
+   "result" : "ok",
+   "set_app_badge_number" : 14,
+   "set_recvd_messages" : [
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "92c7e4ad-1f02-431e-8994-87cafa259d7a",
+         "gift_id" : 13216080646,
+         "msg_id" : 13216080646,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "1b3135fa-0cda-4c68-abc5-c408e969ba67",
+         "gift_id" : 13216035684,
+         "msg_id" : 13216035684,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "15324ffe-2fb6-42f8-b757-7edb6e926c34",
+         "gift_id" : 13215970760,
+         "msg_id" : 13215970760,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "bb6d90c1-136a-43fc-83a6-186f9b83a90e",
+         "gift_id" : 13215943758,
+         "msg_id" : 13215943758,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "60a7d6c7-962e-40f4-b208-1b9766f23a42",
+         "gift_id" : 13215853289,
+         "msg_id" : 13215853289,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "1b7a23e6-1bc3-428f-ae97-4478eb80e0cd",
+         "gift_id" : 13215833486,
+         "msg_id" : 13215833486,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "90fcd8c8-6ad7-4a7e-aa8c-edf2edb0f902",
+         "gift_id" : 13215811271,
+         "msg_id" : 13215811271,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "a1c530c3-7e85-4d3d-a27f-7b0e2fe88446",
+         "gift_id" : 13215550634,
+         "msg_id" : 13215550634,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "fc7603c7-c4c6-49a4-bbd5-03b9a1e54e7d",
+         "gift_id" : 13214996750,
+         "msg_id" : 13214996750,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "3f5a361e-7f1a-45b9-a2bd-bb8afea25427",
+         "gift_id" : 13214802939,
+         "msg_id" : 13214802939,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "7acb9b94-2413-4c47-9520-f86395322b16",
+         "gift_id" : 13214618172,
+         "msg_id" : 13214618172,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "feda8cae-9ee1-4e57-86f8-0498f61d5265",
+         "gift_id" : 13214408577,
+         "msg_id" : 13214408577,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "8e50ed8b-291e-40b8-aa36-b091fde14bab",
+         "gift_id" : 13213877880,
+         "msg_id" : 13213877880,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      },
+      {
+         "currency_count" : 5,
+         "currency_type" : "heart_wax",
+         "from_id" : "0046dd54-a2ae-40b1-9038-6f056e74299c",
+         "gift_id" : 13213581834,
+         "msg_id" : 13213581834,
+         "raw_message" : null,
+         "type" : "gift_heart_wax"
+      }
+   ]
+}

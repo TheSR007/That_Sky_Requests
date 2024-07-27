@@ -1,0 +1,82 @@
+/*
+POST /service/reservation/api/v1/reserve HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: VLMasvX
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 8f20ecfccd6bc8741cb09b597b3a1438
+
+x-sky-level-id: 1509719447
+
+Content-Length: 627
+
+
+
+
+*/
+//Request
+{
+   "all_player_uuids" : [
+      "10ffca92-53eb-4b2d-b875-56dd8788cf36",
+      "f8076fdc-5747-4560-9291-c9cb168185c4",
+      "bf029bb9-445a-4e6a-99f0-21f4c32cca0b",
+      "8c4333f8-60e7-4a88-b56b-1333b0d7bfd6",
+      "df8c4813-5749-4ed6-918c-512fa453d74c",
+      "ce281c4b-d71e-4eee-aa67-04906bc4361b",
+      "26bf973e-8280-45f6-8a71-cca04f4ad394"
+   ],
+   "client_version" : 5019,
+   "current_room_ip" : "54.200.239.106",
+   "current_room_port" : 41382,
+   "event_id" : 13,
+   "recent_player_uuids" : [],
+   "server_version" : 377,
+   "session" : "8f20ecfccd6bc8741cb09b597b3a1438",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 15:19:27 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 283
+
+
+
+
+*/
+//Response
+
+{
+   "base_event_id" : 13,
+   "bench_id" : 632,
+   "event_id" : 13,
+   "hmac" : "8b369805711c3c4584effc93a7465bd41bcf210a4eb7de4f033be2e74402d99a",
+   "influencer_id" : 0,
+   "msg" : "OK",
+   "platform_filter" : 0,
+   "room_ip" : "18.236.166.252",
+   "room_port" : 41727,
+   "seat_id" : 3,
+   "status" : true,
+   "subevent_id" : 0,
+   "timestamp" : 1721143167
+}

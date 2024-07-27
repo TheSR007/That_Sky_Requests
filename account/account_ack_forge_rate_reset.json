@@ -1,0 +1,68 @@
+/*
+POST /account/ack_forge_rate_reset HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: shbNgNM
+
+user-id: 8511f751-0625-4579-9d7e-e6500000
+
+session: bf9438c19c46377bdf0faeed71cc73bd
+
+x-sky-level-id: 3526133726
+
+Content-Length: 158
+
+
+
+
+*/
+//Request
+{
+   "currency" : "wax",
+   "session" : "bf9438c19c46377bdf0faeed71cc73bd",
+   "user" : "8511f751-0625-4579-9d7e-e6500000",
+   "user_id" : "8511f751-0625-4579-9d7e-e6500000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Thu, 18 Jul 2024 10:36:01 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 224
+
+
+
+
+*/
+//Response
+
+{
+   "result" : "ok",
+   "update_forge_rates" : [
+      {
+         "current_level" : 4,
+         "current_tier" : 26,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 5,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : true,
+         "source_type" : "wax",
+         "tier_completion" : 0.0
+      }
+   ]
+}

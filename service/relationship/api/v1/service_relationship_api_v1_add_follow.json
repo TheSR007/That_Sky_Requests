@@ -1,0 +1,63 @@
+/*
+POST /service/relationship/api/v1/add_follow HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: WDZpyor
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 8f20ecfccd6bc8741cb09b597b3a1438
+
+x-sky-level-id: 3526133726
+
+Content-Length: 209
+
+
+
+
+*/
+//Request
+{
+   "creator" : "2b0cf336-2ba4-4357-ae28-af73d8a35c9a",
+   "nickname" : "notif",
+   "session" : "8f20ecfccd6bc8741cb09b597b3a1438",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 15:00:48 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 222
+
+
+
+
+*/
+//Response
+
+{
+   "follower" : {
+      "creator" : "2b0cf336-2ba4-4357-ae28-af73d8a35c9a",
+      "follower" : "8511f751-0625-4579-9d7e-e657b1a00000",
+      "id" : "66968b206968bf1fac05c5c7",
+      "last_modified" : "2024-07-16T15:00:48.472Z",
+      "nickname" : "notif"
+   },
+   "result" : "ok"
+}

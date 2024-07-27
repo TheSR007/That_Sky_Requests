@@ -1,0 +1,62 @@
+/*
+POST /account/commerce/friend_info HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: vlXvsFL
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 490de505cfe155c4ea0b3dad2e721b0c
+
+x-sky-level-id: 3526133726
+
+Content-Length: 211
+
+
+
+
+*/
+//Request
+{
+   "friend_id" : "86fe515c-3d57-43be-bf8b-7127026a8a34",
+   "platform" : "steam",
+   "session" : "490de505cfe155c4ea0b3dad2e721b0c",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a00000",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a00000"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 16:38:06 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Content-Length: 147
+
+
+
+
+*/
+//Response
+
+{
+   "update_friend_commerce" : {
+      "allowed" : true,
+      "friend_id" : "86fe515c-3d57-43be-bf8b-7127026a8a34",
+      "last_gift_time" : null,
+      "purchased_non_consumables" : []
+   }
+}

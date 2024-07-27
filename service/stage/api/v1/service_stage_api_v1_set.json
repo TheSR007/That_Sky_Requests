@@ -1,0 +1,149 @@
+/*
+POST /service/stage/api/v1/set HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.26.1.275000 (Aspire A514-54; win 10.0.22631; en)
+
+X-Session-ID: 097e629e-e857-ec11-80e2-088fc332aee5
+
+Content-Type: application/json
+
+trace-id: tPcLGT8
+
+user-id: 8511f751-0625-4579-9d7e-e657b1a00000
+
+session: 5cff0d0475b2fb9fc3e162371394a6f7
+
+x-sky-level-id: 295816905
+
+Content-Length: 1942
+
+
+
+
+*/
+//Request
+{
+   "level_id" : "TGCOffice",
+   "props" : [
+      {
+         "name" : "CharSkyKid_Prop_AP10Spotlight_01",
+         "ori" : "(0,-0.556,0,0.831)",
+         "pos" : "(0.835,-2.46,-3.788)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_AP10Spotlight_01",
+         "ori" : "(0,-0.707,0,0.707)",
+         "pos" : "(1.001,-2.46,-4.455)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_AP10Spotlight_01",
+         "ori" : "(0,-0.707,0,0.707)",
+         "pos" : "(1.668,-2.46,-3.455)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_AP10Spotlight_01",
+         "ori" : "(0,-0.383,0,0.924)",
+         "pos" : "(1.835,-2.46,-4.121)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_PipeBroken_01",
+         "ori" : "(-0,-0.707,0,0.707)",
+         "pos" : "(1.501,-2.46,-3.788)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_PipeBroken_01",
+         "ori" : "(-0,0.707,-0,0.707)",
+         "pos" : "(1.835,-2.46,-4.621)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_PipeBroken_01",
+         "ori" : "(0,-0.831,0,0.556)",
+         "pos" : "(2.335,-2.46,-3.955)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_BirthdayFlags_01",
+         "ori" : "(0,-0.707,0,0.707)",
+         "pos" : "(0.835,-2.46,-2.788)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_BirthdayFlags_01",
+         "ori" : "(0,-0.707,0,0.707)",
+         "pos" : "(2.168,-2.46,-2.288)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      },
+      {
+         "name" : "CharSkyKid_Prop_Balloon_01",
+         "ori" : "(0,-0.383,0,0.924)",
+         "pos" : "(3.168,-2.46,-2.455)",
+         "scale" : "(1,1,1)",
+         "type" : "unlock",
+         "userDataBool" : false,
+         "version" : 0
+      }
+   ],
+   "sequence" : 1,
+   "session" : "5cff0d0475b2fb9fc3e162371394a6f7",
+   "stage_id" : "enable_stage_tgc_office",
+   "user" : "8511f751-0625-4579-9d7e-e657b1a0",
+   "user_id" : "8511f751-0625-4579-9d7e-e657b1a0",
+   "version" : 0
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Server: nginx/1.14.2
+
+Date: Tue, 16 Jul 2024 17:28:40 GMT
+
+Content-Type: text/plain; charset=utf-8
+
+Connection: keep-alive
+
+Content-Length: 16
+
+
+
+
+*/
+//Response
+
+{"status":"OK"}
