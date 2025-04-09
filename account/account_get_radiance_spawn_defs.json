@@ -1,0 +1,330 @@
+/*
+POST /account/get_radiance_spawn_defs HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.28.6.315083 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+
+Content-Type: application/json
+
+trace-id: bqENQON
+
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+
+session: 807960d148bebf6c502de119ff35
+
+x-sky-level-id: 3526133726
+
+Content-Length: 141
+
+
+
+
+*/
+//Request
+{
+    "session" : "807960d148b50f0c22de119ff35",
+    "user" : "7bcff2-4856-a7ba-d23845079b3c",
+    "user_id" : "7bc-37a6-4856-a7ba-d23845079b3c"
+}
+ 
+
+/*
+HTTP/1.1 200 OK
+
+Date: Wed, 09 Apr 2025 18:40:45 GMT
+
+Content-Type: application/json
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+Content-Length: 5018
+
+
+
+
+*/
+//Response
+{
+    "radiance_spawn_defs" : [
+       {
+          "distribution" : [ "red_55%", "yellow_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_01",
+          "id" : 0,
+          "large_per_day" : 6,
+          "level" : "Prairie_NestAndKeeper",
+          "medium_per_day" : 25,
+          "replace" : false,
+          "small_per_day" : 180
+       },
+       {
+          "distribution" : [ "red_55%", "yellow_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_01",
+          "id" : 1,
+          "large_per_day" : 25,
+          "level" : "Prairie_Island",
+          "medium_per_day" : 100,
+          "replace" : false,
+          "small_per_day" : 0
+       },
+       {
+          "distribution" : [
+             "red_18%",
+             "yellow_8%",
+             "green_18%",
+             "cyan_8%",
+             "blue_18%",
+             "magenta_8%",
+             "white_5%",
+             "black_5%",
+             "wax_12%"
+          ],
+          "event" : "quest_ap25_fetch_04",
+          "id" : 10,
+          "large_per_day" : 0,
+          "level" : "Skyway",
+          "medium_per_day" : 52,
+          "replace" : false,
+          "small_per_day" : 240
+       },
+       {
+          "distribution" : [
+             "red_27%",
+             "yellow_13%",
+             "green_27%",
+             "cyan_13%",
+             "white_10%",
+             "wax_10%"
+          ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 11,
+          "large_per_day" : 2,
+          "level" : "SunsetEnd2",
+          "medium_per_day" : 24,
+          "replace" : false,
+          "small_per_day" : 180
+       },
+       {
+          "distribution" : [
+             "red_27%",
+             "yellow_13%",
+             "green_27%",
+             "cyan_13%",
+             "white_10%",
+             "wax_10%"
+          ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 12,
+          "large_per_day" : 4,
+          "level" : "Sunset_Citadel",
+          "medium_per_day" : 35,
+          "replace" : false,
+          "small_per_day" : 150
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 13,
+          "large_per_day" : 24,
+          "level" : "Dusk",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 14,
+          "large_per_day" : 24,
+          "level" : "DuskMid",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 15,
+          "large_per_day" : 26,
+          "level" : "DuskGraveyard",
+          "medium_per_day" : 52,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 16,
+          "large_per_day" : 26,
+          "level" : "Dusk_CrabField",
+          "medium_per_day" : 52,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 17,
+          "large_per_day" : 26,
+          "level" : "Dusk_Triangle",
+          "medium_per_day" : 52,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_03",
+          "id" : 18,
+          "large_per_day" : 26,
+          "level" : "DuskOasis",
+          "medium_per_day" : 52,
+          "replace" : false,
+          "small_per_day" : 75
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_04",
+          "id" : 19,
+          "large_per_day" : 4,
+          "level" : "NightArchive",
+          "medium_per_day" : 35,
+          "replace" : false,
+          "small_per_day" : 150
+       },
+       {
+          "distribution" : [ "red_55%", "yellow_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_01",
+          "id" : 2,
+          "large_per_day" : 6,
+          "level" : "Prairie_Cave",
+          "medium_per_day" : 46,
+          "replace" : false,
+          "small_per_day" : 130
+       },
+       {
+          "distribution" : [ "red_55%", "black_15%", "wax_30%" ],
+          "event" : "quest_ap25_fetch_04",
+          "id" : 20,
+          "large_per_day" : 14,
+          "level" : "StormStart",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 100
+       },
+       {
+          "distribution" : [ "red_50%", "black_20%", "wax_30%" ],
+          "event" : "quest_ap25_fetch_04",
+          "id" : 21,
+          "large_per_day" : 14,
+          "level" : "Storm",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 100
+       },
+       {
+          "distribution" : [ "red_55%", "yellow_30%", "white_5%", "wax_10%" ],
+          "event" : "color_super_bloom",
+          "id" : 22,
+          "large_per_day" : 50,
+          "level" : "Prairie_NestAndKeeper",
+          "medium_per_day" : 100,
+          "replace" : false,
+          "small_per_day" : 400
+       },
+       {
+          "distribution" : [ "blue_55%", "magenta_30%", "black_5%", "wax_10%" ],
+          "event" : "color_flip",
+          "id" : 23,
+          "large_per_day" : 6,
+          "level" : "Prairie_NestAndKeeper",
+          "medium_per_day" : 24,
+          "replace" : true,
+          "small_per_day" : 180
+       },
+       {
+          "distribution" : [ "blue_40%", "cyan_40%", "black_20%" ],
+          "event" : "",
+          "id" : 24,
+          "large_per_day" : 24,
+          "level" : "Weslandia",
+          "medium_per_day" : 48,
+          "replace" : false,
+          "small_per_day" : 120
+       },
+       {
+          "distribution" : [ "red_55%", "yellow_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_01",
+          "id" : 3,
+          "large_per_day" : 12,
+          "level" : "Prairie_Village",
+          "medium_per_day" : 44,
+          "replace" : false,
+          "small_per_day" : 200
+       },
+       {
+          "distribution" : [ "red_45%", "yellow_30%", "white_15%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_01",
+          "id" : 4,
+          "large_per_day" : 24,
+          "level" : "Prairie_WildLifePark",
+          "medium_per_day" : 100,
+          "replace" : false,
+          "small_per_day" : 0
+       },
+       {
+          "distribution" : [ "green_55%", "cyan_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_02",
+          "id" : 5,
+          "large_per_day" : 8,
+          "level" : "Rain",
+          "medium_per_day" : 35,
+          "replace" : false,
+          "small_per_day" : 180
+       },
+       {
+          "distribution" : [ "green_55%", "cyan_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_02",
+          "id" : 6,
+          "large_per_day" : 4,
+          "level" : "RainForest",
+          "medium_per_day" : 55,
+          "replace" : false,
+          "small_per_day" : 240
+       },
+       {
+          "distribution" : [ "green_55%", "cyan_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_02",
+          "id" : 7,
+          "large_per_day" : 0,
+          "level" : "RainMid",
+          "medium_per_day" : 60,
+          "replace" : false,
+          "small_per_day" : 260
+       },
+       {
+          "distribution" : [ "green_55%", "cyan_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_02",
+          "id" : 8,
+          "large_per_day" : 9,
+          "level" : "RainShelter",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 190
+       },
+       {
+          "distribution" : [ "green_55%", "cyan_30%", "white_5%", "wax_10%" ],
+          "event" : "quest_ap25_fetch_02",
+          "id" : 9,
+          "large_per_day" : 25,
+          "level" : "Rain_Cave",
+          "medium_per_day" : 50,
+          "replace" : false,
+          "small_per_day" : 60
+       }
+    ]
+}
+ 
