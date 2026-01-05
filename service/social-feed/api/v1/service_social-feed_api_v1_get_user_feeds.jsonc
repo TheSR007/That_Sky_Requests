@@ -16,7 +16,7 @@ Content-Length: 238
 {
     "batch_size" : 1,
     "pool_name" : "CandleSpaceEnd",     //levelname
-    "pool_type" : "RecordingCandle",    //type MessageBoat/SharedSpaceCandle etc
+    "pool_type" : "RecordingCandle",    //type MessageBoat/SharedSpaceCandle/RecordingShrine etc
     "session" : "c96c4ac19fd8ead1e884e4a852a7e933",
     "skip" : 0,
     "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214",

@@ -31,7 +31,7 @@ def save_requests_responses(data, endpoint, directory):
 """
 
     # Write to endpoint.json only if it doesn't already exist
-    json_filename = os.path.join(directory, f"{endpoint.replace('/', '_')}.json")
+    json_filename = os.path.join(directory, f"{endpoint.replace('/', '_')}.jsonc")
     if not os.path.exists(json_filename):
         with open(json_filename, 'w') as f:
             f.write(request_response_str)

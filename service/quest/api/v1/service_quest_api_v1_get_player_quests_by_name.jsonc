@@ -1,0 +1,233 @@
+/*
+POST /service/quest/api/v1/get_player_quests_by_name HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: rbQpJ3M
+user-id: 7bcff223-37a6-4856-a7ba-
+session: 690dc7ca2da0be4bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-
+x-session-token: 690dc7ca2da0be48897bf12d
+x-sky-level-id: 1509719447
+Content-Length: 723
+
+
+*/
+//Request
+{
+   "quest_names" : [
+      "ap28_fetch_02",
+      "lightseeker_forest",
+      "meditate_rain_shelter",
+      "recharge_by_shroom",
+      "ap28_fetch_01",
+      "tidy_rain_grandmatable",
+      "ap28_fetch_03",
+      "ap28_fetch_04",
+      "ap28_fetch_05",
+      "trust_moment_lighthorn",
+      "ap28_fetch_06",
+      "ap28_fetch_07",
+      "ap28_fetch_08",
+      "ap28_fetch_09",
+      "ap28_fetch_10",
+      "companion_airplanearms_spend_time_medium",
+      "companion_dizzy_spend_time_medium",
+      "companion_flag_spend_time_medium",
+      "companion_jellydance_spend_time_medium",
+      "companion_lighthorn_spend_time_medium",
+      "trust_moment_flag",
+      "trust_moment_airplanearms",
+      "trust_moment_dizzy",
+      "trust_moment_jellydance"
+   ],
+   "session" : "690dc7ca2da0be412d",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:52 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 2308
+
+
+*/
+//Response
+{
+   "results" : {
+      "ap28_fetch_01" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_02" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_03" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_04" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_05" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_06" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_07" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_08" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_09" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "ap28_fetch_10" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "companion_airplanearms_spend_time_medium" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "companion_dizzy_spend_time_medium" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "companion_flag_spend_time_medium" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "companion_jellydance_spend_time_medium" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "companion_lighthorn_spend_time_medium" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "lightseeker_forest" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "meditate_rain_shelter" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "recharge_by_shroom" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "tidy_rain_grandmatable" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "trust_moment_airplanearms" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "trust_moment_dizzy" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "trust_moment_flag" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "trust_moment_jellydance" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      },
+      "trust_moment_lighthorn" : {
+         "quest_id" : null,
+         "quest_name" : "",
+         "start_time" : 0,
+         "stats" : {},
+         "status" : ""
+      }
+   }
+}

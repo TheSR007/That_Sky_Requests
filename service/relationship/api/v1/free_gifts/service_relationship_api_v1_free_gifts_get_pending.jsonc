@@ -31,6 +31,16 @@ Content-Length: 52
 */
 //Response
 {
-    "set_recvd_free_gifts" : [],
-    "set_sent_free_gifts" : []
- } 
+   "set_recvd_free_gifts" : [
+      {
+         "from_id" : "1d7eea25-3856-40a6-af9b-",
+         "gift_id" : 176677959,
+         "recvd" : false,
+         "to_currency_count" : 5,
+         "to_currency_type" : "heart_wax",
+         "type" : "gift_heart_wax"
+      }
+   ],
+   "set_sent_free_gifts" : []
+}
+

@@ -17,9 +17,9 @@ Content-Length: 1381
     "device_name" : "Unknown",
     "device_token" : "",
     "external_credentials" : {
-       "alias" : "Buga_Luga007",
+       "alias" : "Name",
        "external_account_type" : "Steam",
-       "player_id" : "76561199698282316",
+       "player_id" : "765611996986",
        "signature" : "140000002f8193240970dd484c07986701001001119b9166180000000100000005000000a04b5443044b11d0a5981f0003000000b200000032000000040000004c079867010010012a7b230054c8931b0138a8c000000000129b9166924aad66010096be0c000000000004a4fc0d90832fff0d6ebe416afeeda1e3956b5ddc38ef9c6735bc9e9aa9282657f07f9048643ac4c3737cd6d1bce3f0b1cfcb0654fe67e490107b5277d79d317b137f05b3f2cf9469b374b203b7523b1d2c0cbbfb48081dc4ef632457a26a6015d1bd0d0af34972d4675818eb458eb4861dea69076208352907f70877f729de"
     },
     "hashes" : [
@@ -72,15 +72,16 @@ Content-Length: 1381
        "device" : "",
        "key" : "no_bcrypt",
        "recovery_token" : "",
-       "user" : "28696b5b-3fd0-4b47-bfe0-bdfab9328214"
+       "user" : "28696b5b-3fd0-4b47-bfe0-"
     },
     "external_links" : [
        {
-          "alias" : "Buga_Luga007",
-          "player_id" : "76561199698282316",
+          "alias" : "name",
+          "player_id" : "765611996316",
           "type" : "Steam"
        }
     ],
+    "player_badge_type" : 0,
     "resource_list" : [
        "device_capabilities",
        "userdata",
@@ -127,6 +128,7 @@ Content-Length: 1381
        "get_user_profile",
        "emote_sequences",
        "video_defs",
+       "radiance_spawn_defs",
        "messages"
     ],
     "session" : "c96c4ac19fd8ead1e884e4a852a7e933"

@@ -1,0 +1,47 @@
+/*
+POST /service/trust/api/v1/get HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-455968
+Content-Type: application/json
+trace-id: v6D4jpj
+user-id: 7bcff223-37a6-4856-a7b9b3c
+session: 690dc7ca2da0be48897bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-079b3c
+x-session-token: 690dc7ca2da0be474af7bf12d
+x-sky-level-id: 1509719447
+Content-Length: 217
+
+
+*/
+//Request
+{
+   "npcs" : [
+      "questap28",
+      "lighthorn",
+      "dizzy",
+      "jellydance",
+      "flag",
+      "airplanearms"
+   ],
+   "session" : "690dc7ca2da0be48899f12d",
+   "user" : "7bcff223-37a6-4856-a7ba-d2379b3c",
+   "user_id" : "7bcff223-37a6-4856-a7ba-d2079b3c"
+}
+
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:58 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 25
+
+
+*/
+//Response
+{
+   "npcs" : [],
+   "players" : []
+}

@@ -32,18 +32,106 @@ Content-Length: 203
 */
 //Response
 {
-    "forge_rates" : [
-       {
-          "current_level" : 4,
-          "current_tier" : 26,
-          "enabled" : true,
-          "level_completion" : 0.0,
-          "level_tier_count" : 5,
-          "level_tier_index" : 0,
-          "reset_acknowledged" : true,
-          "source_type" : "wax",
-          "tier_completion" : 0.0
-       }
-    ]
- }
+   "forge_rates" : [
+      {
+         "current_level" : 4,
+         "current_tier" : 26,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 5,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 4,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 3,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_yellow_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 2,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 1,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_white_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 5,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 4,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_red_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 4,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 3,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_magenta_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 5,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 4,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_green_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 4,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 3,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_cyan_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 5,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 4,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_blue_wax",
+         "tier_completion" : 0.0
+      },
+      {
+         "current_level" : 1,
+         "current_tier" : 2,
+         "enabled" : true,
+         "level_completion" : 0.0,
+         "level_tier_count" : 1,
+         "level_tier_index" : 0,
+         "reset_acknowledged" : false,
+         "source_type" : "color_black_wax",
+         "tier_completion" : 0.0
+      }
+   ]
+}
  

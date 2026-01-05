@@ -1,0 +1,102 @@
+/*
+POST /account/trust/get_trust_group_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: pzXDMyG
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+session: 690dc7ca2da0be48899aee74af7bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+x-session-token: 690dc7ca2da0be48899aee74af7bf12d
+x-sky-level-id: 3526133726
+Content-Length: 141
+
+
+*/
+//Request
+{
+   "session" : "690dc7ca2da0be48899aee742d",
+   "user" : "7bcff223-37a6-4856-a7ba-d23b3c",
+   "user_id" : "7bcff223-37a6-4856-a7ba-d29b3c"
+}
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:40 GMT
+Content-Type: application/json
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 1031
+
+
+*/
+//Response
+{
+   "get_trust_group_defs" : [
+      {
+         "activity_group" : "player_gift",
+         "cap_cadence" : "uncapped",
+         "category" : "immediate",
+         "global_max" : -1,
+         "max" : -1,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "player_interaction",
+         "cap_cadence" : "daily",
+         "category" : "daily",
+         "global_max" : 300,
+         "max" : 250,
+         "multiplier" : 0.50
+      },
+      {
+         "activity_group" : "player_unlock",
+         "cap_cadence" : "uncapped",
+         "category" : "immediate",
+         "global_max" : -1,
+         "max" : -1,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "spirit_companion",
+         "cap_cadence" : "daily",
+         "category" : "immediate",
+         "global_max" : 100,
+         "max" : 100,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "spirit_interaction",
+         "cap_cadence" : "daily",
+         "category" : "daily",
+         "global_max" : 10,
+         "max" : 5,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "spirit_quest_complete",
+         "cap_cadence" : "daily",
+         "category" : "immediate",
+         "global_max" : 800,
+         "max" : 500,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "cap_cadence" : "uncapped",
+         "category" : "immediate",
+         "global_max" : -1,
+         "max" : -1,
+         "multiplier" : 1.0
+      },
+      {
+         "activity_group" : "zero_trust_group",
+         "cap_cadence" : "uncapped",
+         "category" : "immediate",
+         "global_max" : 0,
+         "max" : 0,
+         "multiplier" : 1.0
+      }
+   ]
+}

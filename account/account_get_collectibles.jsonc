@@ -32,63 +32,1054 @@ Content-Length: 677
 */
 //Response
 {
-    "collectibles" : [
-       {
-          "candle_space" : false,
-          "carrying" : false,
-          "id" : "cape",
-          "level" : 2,
-          "permanent_level" : 1,
-          "used" : false
-       },
-       {
-          "candle_space" : true,
-          "carrying" : false,
-          "id" : "flame",
-          "level" : 1,
-          "permanent_level" : 0,
-          "used" : true
-       },
-       {
-          "candle_space" : true,
-          "carrying" : false,
-          "id" : "home",
-          "level" : 1,
-          "permanent_level" : 0,
-          "used" : true
-       },
-       {
-          "candle_space" : true,
-          "carrying" : false,
-          "id" : "normal",
-          "level" : 1,
-          "permanent_level" : 0,
-          "used" : true
-       },
-       {
-          "candle_space" : false,
-          "carrying" : false,
-          "id" : "point",
-          "level" : 2,
-          "permanent_level" : 1,
-          "used" : true
-       },
-       {
-          "candle_space" : true,
-          "carrying" : false,
-          "id" : "sit",
-          "level" : 1,
-          "permanent_level" : 0,
-          "used" : true
-       },
-       {
-          "candle_space" : true,
-          "carrying" : false,
-          "id" : "skykid",
-          "level" : 1,
-          "permanent_level" : 0,
-          "used" : true
-       }
-    ]
- }
- 
+   "collectibles" : [
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "acknowledge",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "anxious",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "armwave",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "awww",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "babymanta",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "backflip",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "balance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "beacon",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "bearhug",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "beckon",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "bellyscratch",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "bird",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "bow",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "brave",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "bubbles",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "butterfly",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "cape",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "carry",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "celebrate",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "cheer",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "chestpound",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "chuckle",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "cold",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "come",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "crabvoice",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "crabwalk",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "cry",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "dance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "deepbreath",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "die",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "dontgo",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "doublefive",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "doze",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "duetdance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "dustoff",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "evillaugh",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "eww",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "facepalm",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "flame",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "float",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "floatdance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "force",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "ghost",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "gloat",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "gratitude",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "grief",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "grumpy",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "hackysack",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "hairtousle",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "handshake",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "handstand",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "headbob",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "home",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "injured",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "jelly",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "jollydance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "joy",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "juggle",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "kiss",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "kungfu",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "laugh",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "lazycool",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "lookaround",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "loopdance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "love",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "manta",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "marching",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "mope",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "muscle",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "nerdy",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "nightbird",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "nod",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "normal",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "nothanks",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "ohno",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "ouch",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "peek",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "playfight",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "plead",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "point",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "pointup",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "pout",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "pray",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "princesscarry",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "proud",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "pullup",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "raisetheroof",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "rally",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "respect",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "rhythmicclap",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "roll",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "salutation",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "salute",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sarcastic",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sass",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "scare",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "scared",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "scheme",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "seek",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "shh",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "showdance",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "shrug",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "shy",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sidehug",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : false
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "sit",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : true,
+         "carrying" : false,
+         "id" : "skykid",
+         "level" : 1,
+         "permanent_level" : 0,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "slouch",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sneaky",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sneeze",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sorry",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "sparkler",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "spintrick",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "stretch",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "strong",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "think",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "thumbsup",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "timid",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "tiptoe",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "tripleaxel",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "tsktsk",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "twirl",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "voila",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "wait",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "wave",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "welcome",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "whale",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "whistle",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "windpose",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "wipe",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "wise",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      },
+      {
+         "candle_space" : false,
+         "carrying" : false,
+         "id" : "yawn",
+         "level" : 2,
+         "permanent_level" : 1,
+         "used" : true
+      }
+   ]
+}

@@ -1,0 +1,101 @@
+/*
+POST /service/quest/api/v1/check_for_previous_completion HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: LjWdgIV
+user-id: 7bcff223-37a6-4856-a7ba-
+session: 690dc7ca2da0be7bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-
+x-session-token: 690dc7ca2ee74af7bf12d
+x-sky-level-id: 3526133726
+Content-Length: 322
+
+
+*/
+//Request
+{
+   "quest_names" : [
+      "lightseeker_forest",
+      "meditate_rain_shelter",
+      "recharge_by_shroom",
+      "ap28_fetch_01",
+      "tidy_rain_grandmatable",
+      "trust_moment_lighthorn",
+      "trust_moment_flag",
+      "trust_moment_airplanearms",
+      "trust_moment_dizzy",
+      "trust_moment_jellydance"
+   ],
+   "session" : "690dc7ca2d4af7bf12d",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:41 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 859
+
+
+*/
+//Response
+{
+   "results" : [
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "lightseeker_forest"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "meditate_rain_shelter"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "recharge_by_shroom"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "ap28_fetch_01"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "tidy_rain_grandmatable"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "trust_moment_lighthorn"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "trust_moment_flag"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "trust_moment_airplanearms"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "trust_moment_dizzy"
+      },
+      {
+         "completed_today" : false,
+         "previously_completed" : false,
+         "quest_name" : "trust_moment_jellydance"
+      }
+   ]
+}

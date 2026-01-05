@@ -1,0 +1,938 @@
+/*
+POST /account/trust/get_trust_tier_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: LYB7Ex
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+session: 690dc7ca2da0be48899aee74af7bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+x-session-token: 690dc7ca2da0be48899aee74af7bf12d
+x-sky-level-id: 1509719447
+Content-Length: 141
+
+
+*/
+//Request
+{
+   "session" : "690dc7ca2da0be48899aee742d",
+   "user" : "7bcff223-37a6-4856-a7ba-d23b3c",
+   "user_id" : "7bcff223-37a6-4856-a7ba-d29b3c"
+}
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:55 GMT
+Content-Type: application/json
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 15743
+
+
+*/
+//Response
+{
+   "get_trust_tier_defs" : [
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc:airplanearms:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "airplanearms",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc:airplanearms:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "airplanearms",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc:airplanearms:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "airplanearms",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:airplanearms:4",
+         "required_quests" : [ "trust_moment_airplanearms" ],
+         "tier" : 4,
+         "tier_npc" : "airplanearms",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:airplanearms:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "airplanearms",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc:dizzy:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "dizzy",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc:dizzy:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "dizzy",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc:dizzy:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "dizzy",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:dizzy:4",
+         "required_quests" : [ "trust_moment_dizzy" ],
+         "tier" : 4,
+         "tier_npc" : "dizzy",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:dizzy:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "dizzy",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc:flag:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "flag",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc:flag:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "flag",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc:flag:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "flag",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:flag:4",
+         "required_quests" : [ "trust_moment_flag" ],
+         "tier" : 4,
+         "tier_npc" : "flag",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:flag:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "flag",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc:jellydance:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "jellydance",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc:jellydance:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "jellydance",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc:jellydance:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "jellydance",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:jellydance:4",
+         "required_quests" : [ "trust_moment_jellydance" ],
+         "tier" : 4,
+         "tier_npc" : "jellydance",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:jellydance:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "jellydance",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc:lighthorn:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "lighthorn",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc:lighthorn:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "lighthorn",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc:lighthorn:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "lighthorn",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:lighthorn:4",
+         "required_quests" : [ "trust_moment_lighthorn" ],
+         "tier" : 4,
+         "tier_npc" : "lighthorn",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc:lighthorn:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "lighthorn",
+         "tier_personality" : "",
+         "tier_type" : "npc",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "npc_default:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "npc_default",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "npc_default:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "npc_default",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "npc_default:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "npc_default",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "npc_default:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "npc_default",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "offer:high_five",
+         "id" : "npc_default:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "npc_default",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 2800
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "CheerEmote_1",
+         "id" : "personality:competitive:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "CheerEmote_1+",
+         "id" : "personality:competitive:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "BackFlipEmote_1",
+         "id" : "personality:competitive:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "BackFlipEmote_1+",
+         "id" : "personality:competitive:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "offer:double_five",
+         "id" : "personality:competitive:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "strong",
+         "greeting" : "offer:double_five",
+         "id" : "personality:competitive:6",
+         "required_quests" : [],
+         "tier" : 6,
+         "tier_npc" : "",
+         "tier_personality" : "competitive",
+         "tier_type" : "personality",
+         "tier_up" : "TripleAxelEmote_1",
+         "xp" : 5000
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "BowEmote_1",
+         "id" : "personality:disciplined:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "BowEmote_1+",
+         "id" : "personality:disciplined:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "SaluteEmote_1Enter",
+         "id" : "personality:disciplined:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "SaluteEmote_1Enter+",
+         "id" : "personality:disciplined:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "copy:respect",
+         "id" : "personality:disciplined:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "wise",
+         "greeting" : "copy:respect",
+         "id" : "personality:disciplined:6",
+         "required_quests" : [],
+         "tier" : 6,
+         "tier_npc" : "",
+         "tier_personality" : "disciplined",
+         "tier_type" : "personality",
+         "tier_up" : "AcknowledgeEmote_1",
+         "xp" : 5000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "personality:friendly:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "personality:friendly:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "personality:friendly:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1+",
+         "id" : "personality:friendly:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "offer:high_five",
+         "id" : "personality:friendly:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "offer:high_five",
+         "id" : "personality:friendly:6",
+         "required_quests" : [],
+         "tier" : 6,
+         "tier_npc" : "",
+         "tier_personality" : "friendly",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 5000
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "GrumpyStanding",
+         "id" : "personality:grumpy:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "GrumpyEmote_1+",
+         "id" : "personality:grumpy:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "ShrugEmote_1",
+         "id" : "personality:grumpy:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "ShrugEmote_1+",
+         "id" : "personality:grumpy:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "offer:fist_bump",
+         "id" : "personality:grumpy:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "proud",
+         "greeting" : "offer:fist_bump",
+         "id" : "personality:grumpy:6",
+         "required_quests" : [],
+         "tier" : 6,
+         "tier_npc" : "",
+         "tier_personality" : "grumpy",
+         "tier_type" : "personality",
+         "tier_up" : "BowEmote_1",
+         "xp" : 5000
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "personality:guide:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "guide",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1",
+         "id" : "personality:guide:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "guide",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "personality:guide:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "guide",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "WaveEmote_1+",
+         "id" : "personality:guide:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "guide",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1200
+      },
+      {
+         "ability_name" : "default",
+         "greeting" : "BlowKissEmote_1",
+         "id" : "personality:guide:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "guide",
+         "tier_type" : "personality",
+         "tier_up" : "RallyEmote_1",
+         "xp" : 1600
+      },
+      {
+         "ability_name" : "timid",
+         "greeting" : "ShyEmote_1",
+         "id" : "personality:shy:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "shy",
+         "tier_type" : "personality",
+         "tier_up" : "GratitudeEmote_1",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "timid",
+         "greeting" : "ShyEmote_1+",
+         "id" : "personality:shy:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "shy",
+         "tier_type" : "personality",
+         "tier_up" : "GratitudeEmote_1",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "timid",
+         "greeting" : "AwwwEmote_1",
+         "id" : "personality:shy:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "shy",
+         "tier_type" : "personality",
+         "tier_up" : "GratitudeEmote_1",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "timid",
+         "greeting" : "AwwwEmote_1+",
+         "id" : "personality:shy:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "shy",
+         "tier_type" : "personality",
+         "tier_up" : "GratitudeEmote_1",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "timid",
+         "greeting" : "copy:hearthands",
+         "id" : "personality:shy:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "shy",
+         "tier_type" : "personality",
+         "tier_up" : "GratitudeEmote_1",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "DozeEmote_1Enter",
+         "id" : "personality:sleepy:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "DozeEmote_1Enter+",
+         "id" : "personality:sleepy:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 400
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "YawnEmote_1",
+         "id" : "personality:sleepy:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 600
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "YawnEmote_1+",
+         "id" : "personality:sleepy:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 800
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "offer:fist_bump",
+         "id" : "personality:sleepy:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "lazy",
+         "greeting" : "offer:fist_bump",
+         "id" : "personality:sleepy:6",
+         "required_quests" : [],
+         "tier" : 6,
+         "tier_npc" : "",
+         "tier_personality" : "sleepy",
+         "tier_type" : "personality",
+         "tier_up" : "DozeEmote_1Exit",
+         "xp" : 5000
+      },
+      {
+         "ability_name" : "",
+         "greeting" : "",
+         "id" : "player:1",
+         "required_quests" : [],
+         "tier" : 1,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "player",
+         "tier_up" : "",
+         "xp" : 0
+      },
+      {
+         "ability_name" : "",
+         "greeting" : "",
+         "id" : "player:2",
+         "required_quests" : [],
+         "tier" : 2,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "player",
+         "tier_up" : "",
+         "xp" : 1000
+      },
+      {
+         "ability_name" : "",
+         "greeting" : "",
+         "id" : "player:3",
+         "required_quests" : [],
+         "tier" : 3,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "player",
+         "tier_up" : "",
+         "xp" : 2000
+      },
+      {
+         "ability_name" : "",
+         "greeting" : "",
+         "id" : "player:4",
+         "required_quests" : [],
+         "tier" : 4,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "player",
+         "tier_up" : "",
+         "xp" : 3000
+      },
+      {
+         "ability_name" : "",
+         "greeting" : "",
+         "id" : "player:5",
+         "required_quests" : [],
+         "tier" : 5,
+         "tier_npc" : "",
+         "tier_personality" : "",
+         "tier_type" : "player",
+         "tier_up" : "",
+         "xp" : 4000
+      }
+   ]
+}

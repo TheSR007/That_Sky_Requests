@@ -1,0 +1,182 @@
+/*
+POST /account/trust/get_trust_activity_defs HTTP/1.1
+Host: live.radiance.thatgamecompany.com
+User-Agent: Sky-Live-com.tgc.sky.win/0.31.6.359532 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+Content-Type: application/json
+trace-id: CKh8U11
+user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+session: 690dc7ca2da0be48899aee74af7bf12d
+x-user-id: 7bcff223-37a6-4856-a7ba-d23845079b3c
+x-session-token: 690dc7ca2da0be48899aee74af7bf12d
+x-sky-level-id: 1509719447
+Content-Length: 141
+
+
+*/
+//Request
+{
+   "session" : "690dc7ca2da0be48899aee742d",
+   "user" : "7bcff223-37a6-4856-a7ba-d23b3c",
+   "user_id" : "7bcff223-37a6-4856-a7ba-d29b3c"
+}
+
+/*
+HTTP/1.1 200 OK
+Date: Sun, 04 Jan 2026 19:58:49 GMT
+Content-Type: application/json
+Connection: keep-alive
+Server: nginx/1.14.2
+Content-Length: 2532
+
+
+*/
+//Response
+{
+   "get_trust_activity_defs" : [
+      {
+         "activity_group" : "spirit_companion",
+         "trust_activity" : "spirit_companion_large",
+         "trust_delta" : 300,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_companion",
+         "trust_activity" : "spirit_companion_small",
+         "trust_delta" : 100,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_quest_complete",
+         "trust_activity" : "spirit_dailyquest",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_interaction",
+         "trust_activity" : "spirit_emote_at",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_interaction",
+         "trust_activity" : "spirit_emote_with",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_quest_complete",
+         "trust_activity" : "spirit_memory",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_interaction",
+         "trust_activity" : "spirit_temple",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock",
+         "trust_delta" : 400,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_100",
+         "trust_delta" : 100,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_1000",
+         "trust_delta" : 1000,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_150",
+         "trust_delta" : 150,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_200",
+         "trust_delta" : 200,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_267",
+         "trust_delta" : 267,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_300",
+         "trust_delta" : 300,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_400",
+         "trust_delta" : 400,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_50",
+         "trust_delta" : 50,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_500",
+         "trust_delta" : 500,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_600",
+         "trust_delta" : 600,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_800",
+         "trust_delta" : 800,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_heart",
+         "trust_delta" : 300,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_outfit",
+         "trust_delta" : 600,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "spirit_unlock",
+         "trust_activity" : "spirit_unlock_quest",
+         "trust_delta" : 400,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "zero_trust_group",
+         "trust_activity" : "zero_trust_quest",
+         "trust_delta" : 0,
+         "type" : "npc"
+      },
+      {
+         "activity_group" : "zero_trust_group",
+         "trust_activity" : "zero_trust_unlock",
+         "trust_delta" : 0,
+         "type" : "npc"
+      }
+   ]
+}
