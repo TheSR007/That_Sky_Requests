@@ -1,0 +1,95 @@
+/*
+POST /service/status/api/v1/get_player_profile HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.32.1.363499 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+
+Content-Type: application/json
+
+trace-id: MC65tX9
+
+user-id: 7bcff223-37a6-4856-a7ba-
+
+session: e119571f773300a4421
+
+x-user-id: 7bcff223-37a6-4856-a7ba-
+
+x-session-token: e119571f773300a4421
+
+x-sky-level-id: 3526133726
+
+Content-Length: 141
+
+
+
+
+*/
+//Request
+{
+   "session" : "e119571f773300a4421",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Date: Tue, 13 Jan 2026 08:27:32 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+Content-Length: 23
+
+
+
+
+*/
+//Response
+{
+   "feeds" : [
+      {
+         "comments_enabled" : false,
+         "create_at" : 1762253946947,
+         "expire_at" : 1763463546939,
+         "extra_data" : {
+            "chunk_count" : 3,
+            "ori" : "(0,0.995,0,-0.103)",
+            "pos" : "(0.845,0.656,-0.312)",
+            "posted_to" : "f3dbd9a5-54b1-410d-ab0a-bb47b84cea13",
+            "prompt_used" : "",
+            "read_at" : 1762255306,
+            "resource_id" : "2a9449cb-e3ce-432f-849e-0f235b6c7959",
+            "scale" : "(1,1,1)",
+            "sub_type" : 0,
+            "user_id" : "00000000-0000-0000-0000-000000000000"
+         },
+         "message" : "Okay",
+         "pool_name" : "penpal_inbox",
+         "pool_type" : "SocialFeedPenpal",
+         "reactions" : {
+            "is_poisoned" : false,
+            "score" : 0,
+            "total_comment_count" : 0,
+            "total_hide_count" : 0,
+            "total_like_count" : 0,
+            "total_like_reward_message_id" : 0,
+            "total_report_count" : 0,
+            "total_reported_comment_count" : 0,
+            "total_super_like_count" : 0
+         },
+         "social_feed_id" : "5fefcf1c-26e0-4bf6-b410-e0cfe00f01c5:58aeda7e",
+         "state" : "normal",
+         "tags" : null,
+         "user_id" : "934e674e-c5c2-4f2a-81aa-abbafed0abc8:73e1d09b"
+      }
+   ],
+   "result" : "ok"
+}

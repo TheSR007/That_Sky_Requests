@@ -1,0 +1,89 @@
+/*
+POST /service/quest/api/v1/create HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.32.1.363499 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-
+
+Content-Type: application/json
+
+trace-id: AxxQKdI
+
+user-id: 7bcff223-37a6-4856-a7ba-
+
+session: e119571f773300a44210d0a02e
+
+x-user-id: 7bcff223-37a6-4856-a7ba
+
+x-session-token: e119571f773300a44210d
+
+x-sky-level-id: 3526133726
+
+Content-Length: 202
+
+
+
+
+*/
+//Request
+{
+   "current_time" : 1768292913,
+   "quest_name" : "lightseeker_prairie",
+   "session" : "e119571f773300a450596",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Date: Tue, 13 Jan 2026 08:28:34 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+Content-Length: 500
+
+
+
+
+*/
+//Response
+{
+   "expiry_time" : 1768377599,
+   "is_scheduled_quest" : false,
+   "previously_completed" : false,
+   "quest_giver" : "doublefive",
+   "quest_id" : "76529d48-0f4c-4a31-899c-f5de6ce10dca",
+   "quest_name" : "lightseeker_prairie",
+   "quest_type" : "daily",
+   "start_time" : 1768292914,
+   "stats" : {
+      "completion_requirements" : [
+         {
+            "stat_type" : "lightseeker_prairie_count",
+            "value" : 1
+         }
+      ],
+      "init_stats" : [
+         {
+            "stat_type" : "lightseeker_prairie_count",
+            "value" : 0
+         }
+      ],
+      "target_values" : [
+         {
+            "stat_type" : "lightseeker_prairie_count",
+            "value" : 1
+         }
+      ]
+   },
+   "status" : "active",
+   "success" : true
+}

@@ -14,7 +14,7 @@ Content-Length: 411
 {
    "apiKey" : "d6d0db2f-0dec-42cd-bda8-736139858367",
    "appKey" : "8fc3fa4c-4ab9-4ef3-98cb-4c73647a5991",
-   "claimedSkyId" : "7bcff223-37a6-4856-a7ba-d23845079b3c",
+   "claimedSkyId" : "7bcff223-37a6-4856-a7ba-",
    "deviceId" : "if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-",
    "gameversion" : "0.31.6",
    "osVersion" : "10.0.26100",
@@ -45,13 +45,13 @@ Content-Length: 2282
 {
    "acls" : {
       "publish" : [
-         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-d23845079b3c/event/+",
-         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-d23845079b3c/remote/prompt",
-         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-d23845079b3c/challenge/response"
+         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-/event/+",
+         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-/remote/prompt",
+         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-/challenge/response"
       ],
       "subscribe" : [
-         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-d23845079b3c/remote/submit",
-         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-d23845079b3c/challenge/submit"
+         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-/remote/submit",
+         "sky/live/device/if2gq6bvkm4gsmcwnr4fiscknrgwcm3qinyge5jlf4xwi23xf42uotrsm5tgcztfnj4euoi-/user/7bcff223-37a6-4856-a7ba-/challenge/submit"
       ]
    },
    "expiresSeconds" : 86400,

@@ -1,0 +1,59 @@
+/*
+POST /service/relationship/api/v1/get_all_friend_gist HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.32.1.363499 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+
+Content-Type: application/json
+
+trace-id: CCYiLQb
+
+user-id: 7bcff223-37a6-4856-a7ba-
+
+session: e119571f773300a4421
+
+x-user-id: 7bcff223-37a6-4856-a7ba-
+
+x-session-token: e119571f773300a4421
+
+x-sky-level-id: 1509719447
+
+Content-Length: 141
+
+
+
+
+*/
+//Request
+{
+   "session" : "e119571f773300a4421",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 404 Not Found
+
+Date: Tue, 13 Jan 2026 08:27:36 GMT
+
+Content-Type: text/plain; charset=utf-8
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+X-Content-Type-Options: nosniff
+
+Content-Length: 19
+
+
+
+
+*/
+//Response
+
+//404 page not found

@@ -1,0 +1,118 @@
+/*
+POST /service/quest/api/v1/update_quest HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.32.1.363499 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+
+Content-Type: application/json
+
+trace-id: BnRivfq
+
+user-id: 7bcff223-37a6-4856-a7ba-
+
+session: e119571f773300a44210d0a06
+
+x-user-id: 7bcff223-37a6-4856-a7ba-
+
+x-session-token: e119571f773300a44210d
+
+x-sky-level-id: 3526133726
+
+Content-Length: 240
+
+
+
+
+*/
+//Request
+{
+   "quest_id" : "ac7cd402-29e2-4aa9-adf5-42a8605979c8",
+   "session" : "e119571f773300a44210d0a0",
+   "status" : "succeeded",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_data" : {
+      "npc_name" : ""
+   },
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+// See Case 3 Response
+{
+   "collect" : true,
+   "quest_id" : "8be29baf-03c3-4041-b97d-9cb360fe2234",
+   "session" : "e119571f773300a44210d0a02596",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_data" : {
+      "npc_name" : ""
+   },
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Date: Tue, 13 Jan 2026 08:29:56 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+Content-Length: 35
+
+
+
+
+*/
+//Response
+// Case 1 when Active after /service/quest/api/v1/create
+{
+   "status" : "active",
+   "success" : true
+}
+
+// Case 2 When Quest is done after https://live.radiance.thatgamecompany.com/account/set_achievement_stats
+{
+   "status" : "succeeded",
+   "success" : true
+}
+
+//Case 3 When Collecting the Reward
+{
+   "fulfilled_types" : [ "currency" ],
+   "fulfillment" : {
+      "currency" : {
+         "candles" : 57,
+         "heart" : 90,
+         "heart_wax" : 110,
+         "prestige" : 23,
+         "prestige_vip" : 59,
+         "prestige_wax" : 3,
+         "season_candle" : 0,
+         "season_wax" : 0,
+         "season_wax_22" : 6,
+         "vip" : 20,
+         "wax" : 73
+      }
+   },
+   "purchase_fx" : {
+      "currency_count" : 1,
+      "currency_type" : "candles",
+      "sound_id" : 1
+   },
+   "rewards" : {
+      "currency" : {
+         "candles" : 1
+      },
+      "nonseason_reward_id" : {
+         "quest_candle" : 1
+      }
+   },
+   "status" : "collected",
+   "success" : true
+}

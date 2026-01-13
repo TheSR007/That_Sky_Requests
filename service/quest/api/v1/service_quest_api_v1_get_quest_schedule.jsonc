@@ -1,0 +1,91 @@
+/*
+POST /service/quest/api/v1/get_quest_schedule HTTP/1.1
+
+Host: live.radiance.thatgamecompany.com
+
+User-Agent: Sky-Live-com.tgc.sky.win/0.32.1.363499 (HP ENVY x360 Convertible 13-ay1xxx; win 10.0.26100; en)
+
+X-Session-ID: 1be93222-7934-ec11-810d-c85acf455968
+
+Content-Type: application/json
+
+trace-id: eiccw68
+
+user-id: 7bcff223-37a6-4856-a7ba-
+
+session: e119571f773300a4421
+
+x-user-id: 7bcff223-37a6-4856-a7ba-
+
+x-session-token: e119571f773300a4421
+
+x-sky-level-id: 1509719447
+
+Content-Length: 141
+
+
+
+
+*/
+//Request
+{
+   "session" : "e119571f773300a4421",
+   "user" : "7bcff223-37a6-4856-a7ba-",
+   "user_id" : "7bcff223-37a6-4856-a7ba-"
+}
+
+
+/*
+HTTP/1.1 200 OK
+
+Date: Tue, 13 Jan 2026 08:27:39 GMT
+
+Content-Type: application/json; charset=utf-8
+
+Connection: keep-alive
+
+Server: nginx/1.14.2
+
+Content-Length: 476
+
+
+
+
+*/
+//Response
+{
+   "quest_schedule" : [
+      {
+         "epoch" : 1768291200,
+         "quest_id" : "lightseeker_prairie"
+      },
+      {
+         "epoch" : 1768291200,
+         "quest_id" : "meditate_prairie_nestkeeper"
+      },
+      {
+         "epoch" : 1768291200,
+         "quest_id" : "spirit_navigator2"
+      },
+      {
+         "epoch" : 1768291200,
+         "quest_id" : "touch_butterflies_butterflyfields"
+      },
+      {
+         "epoch" : 1768377600,
+         "quest_id" : "emote_with_players"
+      },
+      {
+         "epoch" : 1768377600,
+         "quest_id" : "melt_10_darkstones"
+      },
+      {
+         "epoch" : 1768377600,
+         "quest_id" : "tidy_rain_grandmatable"
+      },
+      {
+         "epoch" : 1768377600,
+         "quest_id" : "world_quest_rain_cold"
+      }
+   ]
+}
